@@ -1,4 +1,100 @@
 @import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@2/distr/fira_code.css);
+.red {
+  color: #EA0027;
+}
+.dred {
+  background-color: #B8001F;
+}
+.orange {
+  color: #FF4500;
+}
+.dorange {
+  background-color: #CC3600;
+}
+.gold {
+  color: #FFB000;
+}
+.dgold {
+  background-color: #CC8B00;
+}
+.yellow {
+  color: #FFD635;
+}
+.dyellow {
+  background-color: #CCAC2B;
+}
+.lime {
+  color: #94E044;
+}
+.dlime {
+  background-color: #73AD34;
+}
+.green {
+  color: #46D160;
+}
+.dgreen {
+  background-color: #349E48;
+}
+.cyan {
+  color: #0DD3BB;
+}
+.dcyan {
+  background-color: #0AA18F;
+}
+.teal {
+  color: #00A6A5;
+}
+.dteal {
+  background-color: #007373;
+}
+.lblue {
+  color: #0079D3;
+}
+.mblue {
+  background-color: #005BA1;
+}
+.blue {
+  color: #0266B3;
+}
+.dblue {
+  background-color: #014980;
+}
+.purple {
+  color: #7193FF;
+}
+.dpurple {
+  background-color: #5A74CC;
+}
+.pink {
+  color: #FF66AC;
+}
+.dpink {
+  background-color: #CC5289;
+}
+.brown {
+  color: #9E8D49;
+}
+.dbrown {
+  background-color: #6B6031;
+}
+.bryl {
+  color: #DDBD37;
+}
+.dbryl {
+  background-color: #AB912B;
+}
+.white {
+  color: #EDEFF1;
+}
+.black {
+  background-color: #373C3F;
+}
+.gray {
+  color: #BBBDBF;
+}
+.dgray {
+  background-color: #BBBDBF;
+}
 body {
   font-family: 'Fira Code', 'Cascadia Code', 'Fira Mono', monospace;
   font-feature-settings: "ss01", "ss02", "ss04", "ss06", "zero", "onum";
