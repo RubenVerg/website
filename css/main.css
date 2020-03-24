@@ -17,3 +17,21 @@ a:link:hover {
 a:visited:hover {
   color: #5A74CC;
 }
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+  color: #646D73;
+}
+h1,
+h2,
+h3 {
+  color: #BBBDBF;
+}
+h4,
+h5,
+h6 {
+  color: #646D73;
+}
