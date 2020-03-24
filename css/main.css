@@ -137,3 +137,27 @@ h5,
 h6 {
   color: #646D73;
 }
+strong,
+.b {
+  font-weight: 700;
+  color: #94E044;
+}
+em,
+.i {
+  font-style: italic;
+  color: #7193FF;
+}
+code,
+pre {
+  border: 1px solid #EDEFF1;
+  border-radius: 2;
+}
+.u {
+  text-decoration: underline;
+}
+strike,
+.s {
+  text-decoration: line-through;
+  color: #BBBDBF;
+  text-decoration-style: wavy;
+}
