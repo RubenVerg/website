@@ -16,13 +16,9 @@ h5::before {
 h6::before {
   content: "###### ";
 }
-body {
-  background-color: #B8001F;
-  color: #FFD635;
-}
 h1 {
-  color: #FFB000;
+  color: #EA0027;
 }
 h1::before {
-  color: #CC8B00;
+  color: #B8001F;
 }
