@@ -1,0 +1,24 @@
+h1::before,
+h1::after {
+  content: "=";
+}
+h2::before,
+h2::after {
+  content: "==";
+}
+h3::before,
+h3::after {
+  content: "===";
+}
+h4::before,
+h4::after {
+  content: "====";
+}
+h5::before,
+h5::after {
+  content: "=====";
+}
+h6::before,
+h6::after {
+  content: "======";
+}
