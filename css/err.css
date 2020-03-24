@@ -1,0 +1,28 @@
+h1::before {
+  content: "# ";
+}
+h2::before {
+  content: "## ";
+}
+h3::before {
+  content: "### ";
+}
+h4::before {
+  content: "#### ";
+}
+h5::before {
+  content: "##### ";
+}
+h6::before {
+  content: "###### ";
+}
+body {
+  background-color: #B8001F;
+  color: #FFD635;
+}
+h1 {
+  color: #FFB000;
+}
+h1::before {
+  color: #CC8B00;
+}
