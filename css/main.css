@@ -149,8 +149,7 @@ em,
 }
 code,
 pre {
-  border: 1px solid #EDEFF1;
-  border-radius: 2;
+  border: 1px dotted #646D73;
 }
 .u {
   text-decoration: underline;
@@ -159,5 +158,5 @@ strike,
 .s {
   text-decoration: line-through;
   color: #BBBDBF;
-  text-decoration-style: wavy;
+  text-decoration-style: double;
 }
