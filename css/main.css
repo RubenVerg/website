@@ -165,18 +165,6 @@ body {
   background-color: #EDEFF1;
   color: #373C3F;
 }
-a:link {
-  color: #0DD3BB;
-}
-a:visited {
-  color: #7193FF;
-}
-a:link:hover {
-  color: #0AA18F;
-}
-a:visited:hover {
-  color: #5A74CC;
-}
 h1::before,
 h2::before,
 h3::before,
