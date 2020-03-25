@@ -220,6 +220,7 @@ ul > li {
 a:link,
 a:visited {
   color: inherit;
+  text-decoration: none;
 }
 a:visited {
   font-style: italic;
