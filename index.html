@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>RubenVerg's Homepage</title>
-		<meta property='og:title' content='RubenVerg - Home'>
-		<meta property='og:type' content='website'>
-		<meta property='og:description' content="RubenVerg's homepage, which is now empty but will soon be filled of goodies!">
-		<meta property='og:url' content='/'>
-		<meta property='og:image' content='/media/thumbs/default.png'>
-		<meta property='og:image:alt' content='Logo'>
-		<meta property='keywords' content='rubenverg'>
-		<link rel='stylesheet' href='/css/main.css' />
-		<link rel="stylesheet" href="/css/md.css">
-	</head>
-	<body>
-		<h1>Sorry, this webpage is empty RN.</h1>
-		It might get filled, tho. Wanna check later?
-	</body>
+<body>
+<script>
+const p = new URLSearchParams(window.location.search);
+window.location.href = locate(parseInt(p.get('i')));
+function locate(i) {
+	switch (i) {
+		case 0: return 'https://rubenverg.com';
+		case 1: return 'https://t.me/rubenverg';
+		case 2: return 'https://t.me/scala_network';
+		case 3: return 'https://blog.rubenverg.com';
+	};
+}
+</script>
+</body>
 </html>
