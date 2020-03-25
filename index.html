@@ -18,14 +18,98 @@
 		<h2 class="glow=gray">Una lista aggiornata (circa) di cose interessanti e gratuite da fare in questo periodo.</h2>
 		<h3 class="glow-lime">Divisi per categoria, ad ogni colore corrisponde una categoria.</h3>
 		<h3>Categorie:</h3>
-		<ul>
+		<ul class="cats">
 			<li class="glow-red"><a href="#museo">Musei e arte</a></li>
-			<li class="glow-gold"><a href="#divertimento">Divertimenti</a></li>
-			<li class="glow-yellow"><a href="#rivista">Riviste, periodici e giornali</a></li>
+			<li class="glow-orange"><a href="#divertimento">Divertimenti</a></li>
+			<li class="glow-gold"><a href="#rivista">Riviste, periodici e giornali</a></li>
+			<li class="glow-yellow"><a href="#libro">Libri</a></li>
+			<li class="glow-lime"><a href="#film">Video, film e documentari</a></li>
 		</ul>
-		<h1 id="museo">Musei e arte <a class="home" /></h1>
-		<h1 id="divertimento">Divertimenti <a class="home" /></h1>
-		<h1 id="rivista">Riviste, periodici e giornali <a class="home"/></h1>
+		<!--museo--><!-- #region -->
+		<h1 class="glow-red" id="museo"						>Musei e arte <a class="home"></a></h1>
+		<p class="red">
+			<ul>
+				<li></li>
+			</ul>
+		</p>
+		<!-- #endregion -->
+		<!--divertimento--><!-- #region -->
+		<h1 class="glow-orange" id="divertimento"	>Divertimenti <a class="home"></a></h1>
+		<p class="orange">
+			<ul>
+				<li><a href="https://www.ludodi.it/">Ludod&igrave;: giochi di carte personalizzabili gratis. <warn>usare il codice <code>#iorestoacasa</code></warn></a></li>
+			</ul>
+		</p>
+		<!-- #endregion -->
+		<!--rivista--><!-- #region -->
+		<h1 class="glow-gold" id="rivista"				>Riviste, periodici e giornali <a class="home"></a></h1>
+		<p class="gold">
+			<ul>
+				<li>Condé Nast: Vanity Fair, Wired, Vogue, GQ, La Cucina Italiana, AD, Traveller gratuiti <warn>É necessario scaricare l'app per iOS o Android e usare i seguenti codici per sbloccare le riviste: <details>
+					<summary>Mostra codici</summary>
+					<table>
+						<thead>
+							<tr>
+								<th>Codice</th>
+								<th>Rivista</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><code>VF4U</code></td>
+								<td>Vanity Fair</td>
+							</tr>
+							<tr>
+								<td><code>VOGUE4U</code></td>
+								<td>Vogue</td>
+							</tr>
+							<tr>
+								<td><code>WIRED4U</code></td>
+								<td>Wired</td>
+							</tr>
+							<tr>
+								<td><code>GQ4U</code></td>
+								<td>GQ</td>
+							</tr>
+							<tr>
+								<td><code>LCI4U</code></td>
+								<td>La Cucina Italiana</td>
+							</tr>
+							<tr>
+								<td><code>AD4U</code></td>
+								<td>AD</td>
+							</tr>
+							<tr>
+								<td><code>TRAVELLER4U</code></td>
+								<td>Traveller</td>
+							</tr>
+						</tbody>
+					</table>
+				</details></warn></li>
+			</ul>
+		</p>
+		<!-- #endregion -->
+		<!--libro--><!-- #region -->
+		<h1 class="glow-yellow" id="libro">Libri <a class="home"></a></h1>
+		<p class="yellow">
+			<ul>
+				<li><a href="https://www.ilnarratore.com/it/custom/a-casa-con-il-narratore-audiolibri/">Il Narratore: audiolibri gratuiti.</a></li>
+				<li><a href="https://www.bertonieditore.com/shop/98-e-book">Bertoni Editore: e-book gratuiti.</a></li>
+				<li><a href="https://bookabook.it/stare-casa-leggere-casa/">BookABook: e-book gratuiti.</a></li>
+				<li><a href="https://www.bookrepublic.it/promozioni/ioleggoacasa-ebook-gratis/">BookRepublic.it: e-book gratuiti</a></li>
+				<li><a href="https://www.cartabianca.com/un-buon-antivirus-libri-gratis/">CartaBianca: e-book gratuiti. <info><a href=https://www.cartabianca.com/catalogo>Catalogo</a></info></li>
+				<li><a href="https://it-it.facebook.com/pg/casasirio/posts">CasaSirio: versione premium con accesso ad e-book gratuiti. <warn>É necessario avere un account Facebook e commentare sul post fissato in alto.</warn></a></li>
+			</ul>
+		</p>
+		<!-- #endregion -->
+		<!--film--><!-- #region -->
+		<h1 class="glow-lime" id="film">Video, film e documentari <a class="home"></a></h1>
+		<p class="lime">
+			<ul>
+				<li><a href="https://solelunadoc.org/bring-the-doc-home/">Sole Luna Doc: documentari in streaming</a></li>
+			</ul>
+		</p>
+		<!-- #endregion -->
 		<script>
 			$('.home').each((i, e) => {
 				e.html = '(torna su)';
