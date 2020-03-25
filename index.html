@@ -11,16 +11,26 @@
 		<meta property='keywords' content='rubenverg,covid,coronavirus,attivitá,attività,attivitá coronavirus,attività coronavirus,casa,chiusi in casa'>
 		<link rel='stylesheet' href='/css/main.css' />
 		<link rel="shortcut icon" href="/media/logo.png" type="image/png">
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	</head>
 	<body>
-		<h1 class="glow-gold">Cosa fare chiusi in casa?</h1>
+		<h1 class="glow-gold" id="home">Cosa fare chiusi in casa?</h1>
 		<h2 class="glow=gray">Una lista aggiornata (circa) di cose interessanti e gratuite da fare in questo periodo.</h2>
 		<h3 class="glow-lime">Divisi per categoria, ad ogni colore corrisponde una categoria.</h3>
 		<h3>Categorie:</h3>
 		<ul>
-			<li class="glow-red"><a href="#museo">Musei</a></li>
+			<li class="glow-red"><a href="#museo">Musei e arte</a></li>
 			<li class="glow-gold"><a href="#divertimento">Divertimenti</a></li>
+			<li class="glow-yellow"><a href="#rivista">Riviste, periodici e giornali</a></li>
 		</ul>
-		<h1 id="museo">Musei <span class="home"></span></h1>
+		<h1 id="museo">Musei e arte <a class="home" /></h1>
+		<h1 id="divertimento">Divertimenti <a class="home" /></h1>
+		<h1 id="rivista">Riviste, periodici e giornali <a class="home"/></h1>
+		<script>
+			$('.home').each((i, e) => {
+				e.html = '(torna su)';
+				e.href = '#home';
+			})
+		</script>
 	</body>
 </html>

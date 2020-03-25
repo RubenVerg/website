@@ -210,25 +210,11 @@ strike,
 ul li {
   list-style: '⟾ ';
 }
-h1::before {
-  content: "/\t";
-}
-h2::before {
-  content: "//\t";
-}
-h3::before {
-  content: "///\t";
-}
-h4::before {
-  content: "////\t";
-}
-h5::before {
-  content: "/////\t";
-}
-h6::before {
-  content: "//////\t";
-}
 .home {
   color: #BBBDBF;
   font-size: small;
+}
+a:link,
+a:visited {
+  color: inherit;
 }
