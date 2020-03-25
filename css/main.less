@@ -1,5 +1,5 @@
 @import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@2/distr/fira_code.css);
-@import "colors";
+@import "_colors";
 
 body {
 	font-family: 'Fira Code', 'Cascadia Code', 'Fira Mono', monospace;
@@ -58,4 +58,8 @@ strike /* You shouldn't use strike, but who cares. I'd use .s anyways. */, .s {
 	text-decoration: line-through;
 	color: @gray;
 	text-decoration-style: double;
+}
+
+li {
+	list-style: '⟾'
 }

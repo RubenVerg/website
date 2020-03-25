@@ -95,6 +95,70 @@
 .dgray {
   background-color: #BBBDBF;
 }
+.glow-red {
+  text-shadow: 0 0 5px #B8001F;
+  color: #EA0027;
+}
+.glow-orange {
+  text-shadow: 0 0 5px #CC3600;
+  color: #FF4500;
+}
+.glow-gold {
+  text-shadow: 0 0 5px #CC8B00;
+  color: #FFB000;
+}
+.glow-yellow {
+  text-shadow: 0 0 5px #CCAC2B;
+  color: #FFD635;
+}
+.glow-lime {
+  text-shadow: 0 0 5px #73AD34;
+  color: #94E044;
+}
+.glow-green {
+  text-shadow: 0 0 5px #349E48;
+  color: #46D160;
+}
+.glow-cyan {
+  text-shadow: 0 0 5px #0AA18F;
+  color: #0DD3BB;
+}
+.glow-teal {
+  text-shadow: 0 0 5px #007373;
+  color: #00A6A5;
+}
+.glow-lblue {
+  text-shadow: 0 0 5px #005BA1;
+  color: #0079D3;
+}
+.glow-blue {
+  text-shadow: 0 0 5px #014980;
+  color: #0266B3;
+}
+.glow-purple {
+  text-shadow: 0 0 5px #5A74CC;
+  color: #7193FF;
+}
+.glow-pink {
+  text-shadow: 0 0 5px #CC5289;
+  color: #FF66AC;
+}
+.glow-brown {
+  text-shadow: 0 0 5px #6B6031;
+  color: #9E8D49;
+}
+.glow-bryl {
+  text-shadow: 0 0 5px #AB912B;
+  color: #DDBD37;
+}
+.glow {
+  text-shadow: 0 0 5px #BBBDBF;
+  color: #EDEFF1;
+}
+.glow-gray {
+  text-shadow: 0 0 5px #373C3F;
+  color: #646D73;
+}
 body {
   font-family: 'Fira Code', 'Cascadia Code', 'Fira Mono', monospace;
   font-feature-settings: "ss01", "ss02", "ss04", "ss06", "zero", "onum";
@@ -159,4 +223,7 @@ strike,
   text-decoration: line-through;
   color: #BBBDBF;
   text-decoration-style: double;
+}
+li {
+  list-style: '⟾';
 }
