@@ -68,7 +68,7 @@ warn {
 
 warn::before {
 	content: "ATTENZIONE: ";
-	animation: 5s linear infinite condemned_blink_effect;
+	animation: 5s linear infinite cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 code {
@@ -79,7 +79,6 @@ code {
 	color: @black;
 	display: inline-block;
 	font-size: .85em;
-	line-height: 1;
 	padding: 2px 4px;
 	white-space: nowrap;
 }
@@ -89,5 +88,5 @@ info {
 }
 
 info::before {
-	content: "ℹ: ";
+	content: "(ℹ): ";
 }

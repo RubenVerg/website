@@ -193,7 +193,6 @@ code {
   color: #373C3F;
   display: inline-block;
   font-size: 0.85em;
-  line-height: 1;
   padding: 2px 4px;
   white-space: nowrap;
 }
@@ -201,5 +200,5 @@ info {
   color: #0079D3;
 }
 info::before {
-  content: "ℹ: ";
+  content: "(ℹ): ";
 }
