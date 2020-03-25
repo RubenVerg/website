@@ -4,8 +4,8 @@
 body {
 	font-family: 'Fira Code', 'Cascadia Code', 'Fira Mono', monospace;
 	font-feature-settings: "ss01", "ss02", "ss04", "ss06", "zero", "onum";
-	background-color: @black;
-	color: @white;
+	background-color: @white;
+	color: @black;
 }
 
 a:link {
@@ -25,15 +25,15 @@ a:visited:hover {
 }
 
 h1::before, h2::before, h3::before, h4::before, h5::before, h6::before, h1::after, h2::after, h3::after, h4::after, h5::after, h6::after {
-	color: @dgray;
-}
-
-h1, h2, h3 {
 	color: @gray;
 }
 
-h4, h5, h6 {
+h1, h2, h3 {
 	color: @dgray;
+}
+
+h4, h5, h6 {
+	color: @gray;
 }
 
 strong, .b {
@@ -46,24 +46,27 @@ em, .i {
 	color: @purple;
 }
 
-code, pre {
-	border: 1px dotted @dgray;
-}
-
 .u {
 	text-decoration: underline;
 }
 
 strike /* You shouldn't use strike. Will use .s. */, .s {
 	text-decoration: line-through;
-	color: @gray;
-	text-decoration-style: double;
+	color: @dred;
 }
 
 ul li {
 	list-style: '⟾ '
 }
 
-ol li {
-	list-style: lower-roman
+h1::before {content: "/"}
+h2::before {content: "//"}
+h3::before {content: "///"}
+h4::before {content: "////"}
+h5::before {content: "/////"}
+h6::before {content: "//////"}
+
+.home {
+	color: @gray;
+	font-size: small;
 }
