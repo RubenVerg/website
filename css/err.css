@@ -225,7 +225,7 @@ strike,
   text-decoration-style: double;
 }
 ul li {
-  list-style: '⟾';
+  list-style: '⟾ ';
 }
 ol li {
   list-style: lower-roman;
