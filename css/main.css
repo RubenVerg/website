@@ -224,6 +224,9 @@ strike,
   color: #BBBDBF;
   text-decoration-style: double;
 }
-li {
+ul li {
   list-style: '⟾';
+}
+ol li {
+  list-style: lower-roman;
 }
