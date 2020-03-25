@@ -104,12 +104,12 @@
   color: #DDBD37;
 }
 .glow {
-  text-shadow: 0 0 2px #BBBDBF;
-  color: #EDEFF1;
+  text-shadow: 0 0 2px #646D73;
+  color: #373C3F;
 }
 .glow-gray {
-  text-shadow: 0 0 2px #373C3F;
-  color: #646D73;
+  text-shadow: 0 0 2px #BBBDBF;
+  color: #BBBDBF;
 }
 body {
   font-family: 'Fira Code', 'Cascadia Code', 'Fira Mono', monospace;
@@ -183,7 +183,7 @@ warn {
 }
 warn::before {
   content: "ATTENZIONE: ";
-  animation: 5s linear infinite condemned_blink_effect;
+  animation: 5s linear infinite cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 code {
   background-color: #BBBDBF;
