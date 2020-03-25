@@ -211,22 +211,22 @@ ul li {
   list-style: '⟾ ';
 }
 h1::before {
-  content: "/";
+  content: "/\t";
 }
 h2::before {
-  content: "//";
+  content: "//\t";
 }
 h3::before {
-  content: "///";
+  content: "///\t";
 }
 h4::before {
-  content: "////";
+  content: "////\t";
 }
 h5::before {
-  content: "/////";
+  content: "/////\t";
 }
 h6::before {
-  content: "//////";
+  content: "//////\t";
 }
 .home {
   color: #BBBDBF;
