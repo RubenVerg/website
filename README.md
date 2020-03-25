@@ -1,2 +1,2 @@
-# website
-My website, at (rubenverg.com)[https://rubenverg.com]
+# Website
+My main website, at [rubenverg.com](https://rubenverg.com)
