@@ -48,65 +48,65 @@
 }
 .glow-red {
   text-shadow: 0 0 2px #EA0027;
-  color: #EA0027;
+  color: #EA0027 !important;
 }
 .glow-orange {
   text-shadow: 0 0 2px #FF4500;
-  color: #FF4500;
+  color: #FF4500 !important;
 }
 .glow-gold {
   text-shadow: 0 0 2px #FFB000;
-  color: #FFB000;
+  color: #FFB000 !important;
 }
 .glow-yellow {
   text-shadow: 0 0 2px #FFD635;
-  color: #FFD635;
+  color: #FFD635 !important;
 }
 .glow-lime {
   text-shadow: 0 0 2px #94E044;
-  color: #94E044;
+  color: #94E044 !important;
 }
 .glow-green {
   text-shadow: 0 0 2px #46D160;
-  color: #46D160;
+  color: #46D160 !important;
 }
 .glow-cyan {
   text-shadow: 0 0 2px #0DD3BB;
-  color: #0DD3BB;
+  color: #0DD3BB !important;
 }
 .glow-teal {
   text-shadow: 0 0 2px #00A6A5;
-  color: #00A6A5;
+  color: #00A6A5 !important;
 }
 .glow-lblue {
   text-shadow: 0 0 2px #0266B3;
-  color: #0079D3;
+  color: #0079D3 !important;
 }
 .glow-blue {
   text-shadow: 0 0 2px #0266B3;
-  color: #0266B3;
+  color: #0266B3 !important;
 }
 .glow-purple {
   text-shadow: 0 0 2px #7193FF;
-  color: #7193FF;
+  color: #7193FF !important;
 }
 .glow-pink {
   text-shadow: 0 0 2px #FF66AC;
-  color: #FF66AC;
+  color: #FF66AC !important;
 }
 .glow-brown {
   text-shadow: 0 0 2px #9E8D49;
-  color: #9E8D49;
+  color: #9E8D49 !important;
 }
 .glow-bryl {
   text-shadow: 0 0 2px #DDBD37;
-  color: #DDBD37;
+  color: #DDBD37 !important;
 }
 .glow {
   text-shadow: 0 0 2px #646D73;
-  color: #373C3F;
+  color: #373C3F !important;
 }
 .glow-gray {
   text-shadow: 0 0 2px #BBBDBF;
-  color: #BBBDBF;
+  color: #BBBDBF !important;
 }
