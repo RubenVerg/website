@@ -1,0 +1,6 @@
+h1 {
+  color: #EA0027;
+}
+h1::before {
+  color: #B8001F;
+}
