@@ -10,3 +10,7 @@ The usage is simple, go to [quicklink.rubenverg.com?id=<id>](https://quicklink.r
   |1|t.me/rubenverg|
   |2|t.me/scala_network|
   |3|blog.rubenverg.com|
+  |4|stupid.rubenverg.com|
+  |5|covid.rubenverg.com|
+  |6|it.rubenverg.com|
+  |7|light.rubenverg.com|
