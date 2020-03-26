@@ -4,28 +4,28 @@
 body {
 	font-family: 'Fira Code', 'Cascadia Code', 'Fira Mono', monospace;
 	font-feature-settings: "ss01", "ss02", "ss04", "ss06", "zero", "onum";
-	background-color: @black;
-	color: @white;
+	background-color: @white;
+	color: @black;
 }
 
 a:link {
-	color: @cyan;
-}
-
-a:visited {
-	color: @purple;
-}
-
-a:link:hover {
 	color: @dcyan;
 }
 
-a:visited:hover {
+a:visited {
 	color: @dpurple;
 }
 
+a:link:hover {
+	color: @cyan;
+}
+
+a:visited:hover {
+	color: @purple;
+}
+
 h1::before, h2::before, h3::before, h4::before, h5::before, h6::before, h1::after, h2::after, h3::after, h4::after, h5::after, h6::after {
-	color: @dgray;
+	color: @gray;
 }
 
 h1, h2, h3 {
@@ -47,7 +47,7 @@ em, .i {
 }
 
 code, pre {
-	border: 1px dotted @dgray;
+	border: 1px dotted @gray;
 }
 
 .u {
@@ -56,7 +56,7 @@ code, pre {
 
 strike /* You shouldn't use strike. Will use .s. */, .s {
 	text-decoration: line-through;
-	color: @gray;
+	color: @dred;
 	text-decoration-style: double;
 }
 

@@ -151,31 +151,31 @@
   text-shadow: 0 0 5px #AB912B;
   color: #DDBD37;
 }
-.glow {
+.glow-white {
   text-shadow: 0 0 5px #BBBDBF;
   color: #EDEFF1;
 }
-.glow-gray {
-  text-shadow: 0 0 5px #373C3F;
-  color: #646D73;
+.glow {
+  text-shadow: 0 0 5px #646D73;
+  color: #373C3F;
 }
 body {
   font-family: 'Fira Code', 'Cascadia Code', 'Fira Mono', monospace;
   font-feature-settings: "ss01", "ss02", "ss04", "ss06", "zero", "onum";
-  background-color: #373C3F;
-  color: #EDEFF1;
+  background-color: #EDEFF1;
+  color: #373C3F;
 }
 a:link {
-  color: #0DD3BB;
-}
-a:visited {
-  color: #7193FF;
-}
-a:link:hover {
   color: #0AA18F;
 }
-a:visited:hover {
+a:visited {
   color: #5A74CC;
+}
+a:link:hover {
+  color: #0DD3BB;
+}
+a:visited:hover {
+  color: #7193FF;
 }
 h1::before,
 h2::before,
@@ -189,7 +189,7 @@ h3::after,
 h4::after,
 h5::after,
 h6::after {
-  color: #646D73;
+  color: #BBBDBF;
 }
 h1,
 h2,
@@ -213,7 +213,7 @@ em,
 }
 code,
 pre {
-  border: 1px dotted #646D73;
+  border: 1px dotted #BBBDBF;
 }
 .u {
   text-decoration: underline;
@@ -221,7 +221,7 @@ pre {
 strike,
 .s {
   text-decoration: line-through;
-  color: #BBBDBF;
+  color: #B8001F;
   text-decoration-style: double;
 }
 ul li {
