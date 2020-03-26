@@ -110,3 +110,10 @@
   text-shadow: 0 0 2px #BBBDBF;
   color: #BBBDBF !important;
 }
+a,
+a:link,
+a:visited,
+a:link:hover,
+a:visited:hover {
+  color: inherit;
+}
