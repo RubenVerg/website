@@ -231,3 +231,27 @@ ul li {
 ol li {
   list-style: georgian;
 }
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before,
+h1::after,
+h2::after,
+h3::after,
+h4::after,
+h5::after,
+h6::after {
+  color: #CC5289;
+}
+h1,
+h2,
+h3 {
+  color: #0DD3BB;
+}
+h4,
+h5,
+h6 {
+  color: #0079D3;
+}
