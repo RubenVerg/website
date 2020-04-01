@@ -1,21 +1,21 @@
 @font-face {
-  font-family: TitleF;
+  font-family: "TitleF";
   src: url('/title.ttf') format('truetype');
   src: url('/title.otf') format('opentype');
   src: url('/title.svg') format('svg')
 }
 
 @font-face {
-  font-family: TextF;
+  font-family: "TextF";
   src: url('/text.ttf') format('truetype');
   src: url('/text.otf') format('opentype');
   src: url('/text.svg') format('svg')
 }
 
 body {
-  font-family: TextF;
+  font-family: "TextF";
 }
 
 h1 {
-  font-family: TitleF;
+  font-family: "TitleF";
 }
