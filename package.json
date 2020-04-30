@@ -1,0 +1,7 @@
+{
+  "name": "giovanni-xxiii-gen",
+  "dependencies": {
+    "conslog": "^1.1.1",
+    "readline-sync": "^1.4.10"
+  }
+}
