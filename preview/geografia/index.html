@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<head>
+		<title>
+			Esame!
+		</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" href="https://files.rubenverg.com/bootstrap/dist/bootstrap.css">
+		<meta property='og:title' content='Esame di Ruben Vergani'>
+		<meta property='og:type' content=website>
+		<meta property='og:description' content="L'elaborato del mio esame é questo sito!">
+		<meta property='og:url' content='/'>
+		<meta property='og:image' content='https://tempobenspeso.online/media/logo.png'>
+		<meta property='og:image:alt' content='Libri in una libreria antica.'>
+		<link rel=" shortcut icon" href="https://tempobenspeso.online/media/logo.png" type="image/png">
+	</head>
+</head>
+
+<body>
+	<!--$-->
+	<!-- Geografia -->
+	<script src="https://threejs.org/build/three.js"></script>
+	<script>
+
+		const states = {
+			START: 0,
+			TRUE: 1,
+			FAKE: 2,
+			EXPL: 3,
+		};
+
+		let state;
+
+		let scene = new THREE.Scene();
+		let camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 5000);
+
+		let loader = new THREE.TextureLoader();
+
+		let light = new THREE.SpotLight(undefined, 1.5);
+		light.position.set(1000, 1000, 1000);
+		light.castShadow = true;
+		scene.add(light);
+
+		state = states.START;
+		// --- REAL ---
+		let finlandImg = loader.load('img/withFinland.png');
+		let finlandMat = new THREE.MeshLambertMaterial({ map: finlandImg });
+		let finlandPlane = new THREE.PlaneGeometry(512, 512);
+		let finland = new THREE.Mesh(finlandPlane, finlandMat);
+		finland.position.set(0,0,0);
+		scene.add(finland);
+		// ---
+		let renderer = new THREE.WebGLRenderer();
+		renderer.setSize(window.innerWidth, window.innerHeight);
+		document.body.appendChild(renderer.domElement);
+
+		camera.position.set(0, 0, 350);
+		camera.lookAt(0, 0, 0)
+
+		const animate = function () {
+			requestAnimationFrame(animate);
+
+			if (state === states.START) {
+				renderer.render(startScene, startCamera);
+			} else if (state === states.REAL) {
+				rendered.render(relScene, realCamera);
+			}
+		}
+
+		animate();
+	</script>
+</body>
+
+</html>
