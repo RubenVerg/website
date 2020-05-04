@@ -4500,7 +4500,7 @@ input[type=button].btn-block {
   padding: 0.75rem 1rem;
   margin-bottom: 1rem;
   list-style: none;
-  background-color: #c9cbcd;
+  background-color: #dbdddf;
   border-radius: 0.25rem;
 }
 
@@ -4511,7 +4511,7 @@ input[type=button].btn-block {
   display: inline-block;
   padding-right: 0.5rem;
   color: #808486;
-  content: "/";
+  content: "⟩";
 }
 .breadcrumb-item + .breadcrumb-item:hover::before {
   text-decoration: underline;
