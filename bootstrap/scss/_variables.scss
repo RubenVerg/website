@@ -45,6 +45,8 @@ $green:   #46d160 !default;
 $teal:    #00a6a5 !default;
 $cyan:    #0dd3bb !default;
 $prgrn:   #94e044 !default;
+$ltgrn:   #bbdd96 !default;
+$drgrn:   #63aa11 !default;
 
 $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -63,12 +65,16 @@ $colors: map-merge(
     "white":      $white,
     "gray":       $gray-600,
     "gray-dark":  $gray-800,
-    "prgrn":      $prgrn
+    "prim":       $prgrn,
+    "lprim":      $ltgrn,
+    "dprim":      $drgrn,
   ),
   $colors
 );
 
 $primary:       $prgrn !default;
+$lightprim:     $ltgrn !default;
+$darkprim:     $drgrn !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $teal !default;
@@ -88,7 +94,9 @@ $theme-colors: map-merge(
     "warning":    $warning,
     "danger":     $danger,
     "light":      $light,
-    "dark":       $dark
+    "dark":       $dark,
+    "lprimary" :  $lightprim,
+    "dprimary" :  $darkprim,
   ),
   $theme-colors
 );
