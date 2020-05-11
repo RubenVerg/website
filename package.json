@@ -1,0 +1,28 @@
+{
+  "name": "website",
+  "version": "0.0.1",
+  "description": "My main website, at [rubenverg.com](https://rubenverg.com)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "node bootstrap\\compileAll.js",
+    "build": "npm run-script build:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubenverg/website.git"
+  },
+  "author": "Ruben Vergani <me@rubenverg.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubenverg/website/issues"
+  },
+  "homepage": "https://github.com/rubenverg/website#readme",
+  "dependencies": {
+    "ora": "^4.0.4",
+    "ora_spinners": "^1.0.2"
+  }
+}
