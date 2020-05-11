@@ -4,11 +4,11 @@
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
 @function shade-color($color, $level) {
-  @return mix(#fff, $color, $level * $theme-color-interval)
+	@return mix(#fff, $color, $level * $theme-color-interval);
 }
 
 @function tint-color($color, $level) {
-  @return mix(#000, $color, $level * $theme-color-interval)
+	@return mix(#000, $color, $level * $theme-color-interval);
 }
 
 // Color system
@@ -28,15 +28,15 @@ $black   : rgb(55, 60, 63) !default;
 // fusv-disable
 $grays: () !default;
 $grays: map-merge(("100": $gray-100,
-    "200": $gray-200,
-    "300": $gray-300,
-    "400": $gray-400,
-    "500": $gray-500,
-    "600": $gray-600,
-    "700": $gray-700,
-    "800": $gray-800,
-    "900": $gray-900),
-  $grays);
+		"200": $gray-200,
+		"300": $gray-300,
+		"400": $gray-400,
+		"500": $gray-500,
+		"600": $gray-600,
+		"700": $gray-700,
+		"800": $gray-800,
+		"900": $gray-900),
+	$grays);
 // fusv-enable
 
 // Set a specific jump point for requesting color jumps
@@ -60,23 +60,23 @@ $sand  : rgb(221, 189, 55) !default;
 // scss-docs-start colors-map
 $colors: () !default;
 $colors: map-merge(("red": $red,
-    "orange": $orange,
-    "gold": $gold,
-    "yellow": $yellow,
-    "lime": $lime,
-    "green": $green,
-    "cyan": $cyan,
-    "teal": $teal,
-    "azure": $azure,
-    "blue": $blue,
-    "purple": $purple,
-    "pink": $pink,
-    "brown": $brown,
-    "sand": $sand,
-    "white": $white,
-    "gray": $gray-300,
-    "gray-dark": $gray-700),
-  $colors);
+		"orange": $orange,
+		"gold": $gold,
+		"yellow": $yellow,
+		"lime": $lime,
+		"green": $green,
+		"cyan": $cyan,
+		"teal": $teal,
+		"azure": $azure,
+		"blue": $blue,
+		"purple": $purple,
+		"pink": $pink,
+		"brown": $brown,
+		"sand": $sand,
+		"white": $white,
+		"gray": $gray-300,
+		"gray-dark": $gray-700),
+	$colors);
 // scss-docs-end colors-map
 
 $primary  : $lime !default;
@@ -92,26 +92,25 @@ $light    : $white !default;
 $darker   : $gray-300 !default;
 $dark     : $gray-900 !default;
 $lighter  : $gray-700 !default;
+$grayish  : $gray-300 !default;
 
 // scss-docs-start theme-colors-map
 $theme-colors: () !default;
-$theme-colors: map-merge(
-  (
-    "primary": $primary,
-    "lprimary": $lprimary,
-    "dprimary": $dprimary,
-    "secondary": $secondary,
-    "success": $success,
-    "info": $info,
-    "warning": $warning,
-    "danger": $danger,
-    "fatal": $fatal,
-    "light": $light,
-    "dark": $dark,
-    "lighter": $lighter,
-    "darker": $darker
-    ),
-  $theme-colors);
+$theme-colors: map-merge(("primary": $primary,
+		"lprimary" : $lprimary,
+		"dprimary" : $dprimary,
+		"secondary" : $secondary,
+		"success" : $success,
+		"info" : $info,
+		"warning" : $warning,
+		"danger" : $danger,
+		"fatal" : $fatal,
+		"light" : $light,
+		"dark" : $dark,
+		"lighter" : $lighter,
+		"darker" : $darker,
+		"grayish" : $grayish),
+	$theme-colors);
 // scss-docs-end theme-colors-map
 
 // The contrast ratio to reach against white, to determine if color changes from "light" to "dark". Acceptable values for WCAG 2.0 are 3, 4.5 and 7.
@@ -131,8 +130,8 @@ $yiq-text-light: $white !default;
 
 // Characters which are escaped by the escape-svg function
 $escaped-characters: (("<", "%3c"),
-  (">", "%3e"),
-  ("#", "%23"),
+	(">", "%3e"),
+	("#", "%23"),
 ) !default;
 
 
@@ -165,22 +164,22 @@ $spacer : 1rem !default;
 $spacers: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $spacers: map-merge((0: 0,
-    1: ($spacer * .25),
-    2: ($spacer * .5),
-    3: $spacer,
-    4: ($spacer * 1.5),
-    5: ($spacer * 3)),
-  $spacers);
+		1: ($spacer * .25),
+		2: ($spacer * .5),
+		3: $spacer,
+		4: ($spacer * 1.5),
+		5: ($spacer * 3)),
+	$spacers);
 
 // This variable affects the `.h-*` and `.w-*` classes.
 $sizes: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $sizes: map-merge((25: 25%,
-    50: 50%,
-    75: 75%,
-    100: 100%,
-    auto: auto),
-  $sizes);
+		50: 50%,
+		75: 75%,
+		100: 100%,
+		auto: auto),
+	$sizes);
 
 
 // Body
@@ -215,10 +214,10 @@ $paragraph-margin-bottom: 1rem !default;
 // adapting to different screen sizes, for use in media queries.
 
 $grid-breakpoints: (xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px) !default;
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px) !default;
 
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
 @include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
@@ -229,9 +228,9 @@ $grid-breakpoints: (xs: 0,
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px) !default;
+	md: 720px,
+	lg: 960px,
+	xl: 1140px) !default;
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
 
@@ -279,11 +278,11 @@ $transition-collapse: height .35s ease !default;
 $embed-responsive-aspect-ratios: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $embed-responsive-aspect-ratios: join(((21 9),
-    (16 9),
-    (4 3),
-    (1 1),
-  ),
-  $embed-responsive-aspect-ratios);
+		(16 9),
+		(4 3),
+		(1 1),
+	),
+	$embed-responsive-aspect-ratios);
 
 // Typography
 //
@@ -704,11 +703,11 @@ $form-feedback-icon-invalid      : url("data:image/svg+xml,<svg xmlns='http://ww
 $form-validation-states: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $form-validation-states: map-merge(("valid": ("color": $form-feedback-valid-color,
-      "icon": $form-feedback-icon-valid),
-    "invalid": ("color": $form-feedback-invalid-color,
-      "icon": $form-feedback-icon-invalid),
-  ),
-  $form-validation-states);
+			"icon": $form-feedback-icon-valid),
+		"invalid": ("color": $form-feedback-invalid-color,
+			"icon": $form-feedback-icon-invalid),
+	),
+	$form-validation-states);
 
 // Z-index master list
 //
@@ -1093,7 +1092,7 @@ $breadcrumb-margin-bottom: 1rem !default;
 $breadcrumb-bg           : $gray-200 !default;
 $breadcrumb-divider-color: $gray-600 !default;
 $breadcrumb-active-color : $gray-600 !default;
-$breadcrumb-divider      : quote("/") !default;
+$breadcrumb-divider      : quote(">") !default;
 
 $breadcrumb-border-radius: $border-radius !default;
 
@@ -1115,7 +1114,7 @@ $carousel-indicator-transition     : opacity .6s ease !default;
 
 $carousel-caption-width: 70% !default;
 $carousel-caption-color: shade-color($primary, 8) !default;
-$carousel-caption-bg: rgba($black, .75) !default;
+$carousel-caption-bg   : rgba($black, .75) !default;
 
 $carousel-control-icon-width: 20px !default;
 
