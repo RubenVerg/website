@@ -122,6 +122,7 @@ fs.readdir('./bootstrap/icons/', (e, files) => {
 			for (let w = 1; w < 1e7; w++) {}
 			let contents = fs.readFileSync(`./bootstrap/icons/${file}`, { encoding: 'utf8' });
 			contents = contents.split(/"/).join(`'`);
+			contents = contents.split(/ class=["']bi bi[a-z\-]+["']/).join(``);
 			contents = contents.split(/\n */).join(``);
 			sass.push({ name: file.split('.svg')[0], contents });
 		}
