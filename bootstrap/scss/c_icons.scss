@@ -1,49 +1,58 @@
-
-@mixin icon($u, $em: .5rem,) {
-  display: inline-block;
-  width: $em;
-	height: $em;
+@mixin icon($u, $em: .5rem, ) {
+  display         : inline-block;
+  width           : $em;
+  height          : $em;
   background-image: escape-svg($u);
+  color           : inherit;
 }
+
 @mixin icon-xl($u) {
-	@include icon($u, 1.5rem);
+  @include icon($u, 1.5rem);
 }
+
 @mixin icon-lg($u) {
-	@include icon($u, 1rem);
+  @include icon($u, 1rem);
 }
+
 @mixin icon-md($u) {
-	@include icon($u, .75rem);
+  @include icon($u, .75rem);
 }
+
 @mixin icon-sm($u) {
-	@include icon($u, .5rem);
+  @include icon($u, .5rem);
 }
+
 @mixin icon-xs($u) {
-	@include icon($u, .25rem);
+  @include icon($u, .25rem);
 }
+
 $escaped-characters: (("<", "%3c"),
   (">", "%3e"),
   ("#", "%23"),
 ) !default;
+
 @function str-replace($string, $search, $replace: "") {
   $index: str-index($string, $search);
 
   @if $index {
-    @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+    @return str-slice($string, 1, $index - 1)+$replace+str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
   }
 
   @return $string;
 }
+
 // See https://codepen.io/kevinweber/pen/dXWoRw
 @function escape-svg($string) {
   @if str-index($string, "data:image/svg+xml") {
-    @each $char, $encoded in $escaped-characters {
+
+    @each $char,
+    $encoded in $escaped-characters {
       $string: str-replace($string, $char, $encoded);
     }
   }
 
   @return $string;
 }
-
 $icon-list-nested-md: url("data:image/svg+xml,<svg width='0.75em' height='0.75em' viewBox='0 0 16 16' fill='currentColor' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z'/></svg>");
 .bi-list-nested, .bi-list-nested-md {
   @include icon-md($icon-list-nested-md);

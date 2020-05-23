@@ -30,52 +30,7 @@ dl('twbs/icons', '_temp', {}, () => {
 		let sass = [];
 		let result = '';
 
-		result += `
-@mixin icon($u, $em: .5rem,) {
-  display: inline-block;
-  width: $em;
-	height: $em;
-  background-image: escape-svg($u);
-}
-@mixin icon-xl($u) {
-	@include icon($u, 1.5rem);
-}
-@mixin icon-lg($u) {
-	@include icon($u, 1rem);
-}
-@mixin icon-md($u) {
-	@include icon($u, .75rem);
-}
-@mixin icon-sm($u) {
-	@include icon($u, .5rem);
-}
-@mixin icon-xs($u) {
-	@include icon($u, .25rem);
-}
-$escaped-characters: (("<", "%3c"),
-  (">", "%3e"),
-  ("#", "%23"),
-) !default;
-@function str-replace($string, $search, $replace: "") {
-  $index: str-index($string, $search);
-
-  @if $index {
-    @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
-  }
-
-  @return $string;
-}
-// See https://codepen.io/kevinweber/pen/dXWoRw
-@function escape-svg($string) {
-  @if str-index($string, "data:image/svg+xml") {
-    @each $char, $encoded in $escaped-characters {
-      $string: str-replace($string, $char, $encoded);
-    }
-  }
-
-  @return $string;
-}
-`;
+		result += fs.readFileSync('bootstrap/iconpreset.scss')
 
 		// const spin = ora({
 		// 	text: c.inverse("Starting"),
@@ -118,6 +73,8 @@ $escaped-characters: (("<", "%3c"),
 		// });
 
 		// spin.start();
+
+		// (!) add
 
 		fs.readdir('./bootstrap/icons/', (e, files) => {
 			if (e) throw e;
