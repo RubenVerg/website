@@ -74,7 +74,7 @@ child.exec('sass bootstrap\\scss\\c_bootstrap.scss bootstrap\\dist\\bootstrap.cs
 	if (e) throw e;
 	done('Bootstrap compiled!');
 	act('Building icons...');
-	child.exec(`cross-env-shell DEBUG_BSC=${process.env.DEBUG_BSC} node bootstrap\\icons\\norm.js`, (e,o) => {
+	child.exec(`cross-env-shell DEBUG_BSC=${process.env.DEBUG_BSC} node bootstrap\\norm.js`, (e,o) => {
 		if (e) throw e;
 		if (o) o = o.split(/\n/);
 		if (o) o.pop();
