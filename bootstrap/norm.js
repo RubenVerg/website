@@ -31,26 +31,26 @@ dl('twbs/icons', '_temp', {}, () => {
 		let result = '';
 
 		result += `
-@mixin icon($u, $em: .5em,) {
+@mixin icon($u, $em: .5rem,) {
   display: inline-block;
   width: $em;
 	height: $em;
   background-image: escape-svg($u);
 }
 @mixin icon-xl($u) {
-	@include icon($u, 1.5em);
+	@include icon($u, 1.5rem);
 }
 @mixin icon-lg($u) {
-	@include icon($u, 1em);
+	@include icon($u, 1rem);
 }
 @mixin icon-md($u) {
-	@include icon($u, .75em);
+	@include icon($u, .75rem);
 }
 @mixin icon-sm($u) {
-	@include icon($u, .5em);
+	@include icon($u, .5rem);
 }
 @mixin icon-xs($u) {
-	@include icon($u, .25em);
+	@include icon($u, .25rem);
 }
 $escaped-characters: (("<", "%3c"),
   (">", "%3e"),
