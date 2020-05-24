@@ -11,7 +11,8 @@
     "build:css": "node bootstrap\\compileAll.js false",
     "build": "npm run-script build:css",
     "dl:css": "node bootstrap\\compileAll.js true",
-    "dl": "npm run-script dl:css"
+    "dl": "npm run-script dl:css",
+    "publish": "npm run-script build && git add * > nul 2>&1 && git commit > nul 2>&1 && git push"
   },
   "repository": {
     "type": "git",

@@ -98,7 +98,7 @@ let afterCopy = e => {
 	@each $themecol, $value in $theme-colors {
 		.bi-${svg.name}-#{$themecol}#{$sizename} {
 			@include icon(
-				"${svg.contents}",
+				"data:image/svg+xml,${svg.contents}",
 				$size,
 				$value
 			)

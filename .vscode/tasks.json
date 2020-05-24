@@ -3,14 +3,11 @@
 	"tasks": [
 		{
 			"type": "npm",
-			"script": "build",
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			},
+			"script": "publish",
+			"group": "build",
 			"problemMatcher": [],
-			"label": "npm: build",
-			"detail": "npm run-script build:css"
-		}
+			"label": "npm: publish",
+			"detail": "npm run-script publish"
+		},
 	]
 }
