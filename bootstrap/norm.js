@@ -87,7 +87,7 @@ dl('twbs/icons', '_temp', {}, () => {
 					contents = contents.split(/"/).join(`'`);
 					contents = contents.split(/ class=["']bi bi[a-z\-]+["']/).join(``);
 					contents = contents.split(/\n */).join(``);
-					sass.push({ name: file.split('.svg')[0], contents });
+					sass.push({ name: file.split('.svg')[0].split('-').join('_'), contents });
 				}
 			}
 			for (let svg of sass) {
@@ -120,7 +120,7 @@ $icon-${svg.name}-xs: url("data:image/svg+xml,${svg.contents.split(/1em/).join('
 
 `;
 			}
-			logD(c.cyan('Saving file'));
+			logD(c.cyan('Saving...'));
 			fs.writeFileSync('./bootstrap/scss/c_icons.scss', result);
 		});
 	});
