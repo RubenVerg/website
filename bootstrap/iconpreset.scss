@@ -1,57 +1,18 @@
-@mixin icon($u, $em: .5rem, ) {
+@import "functions";
+@import "variables";
+@import "mixins";
+
+$icon-sizes: ("-xs": .25rem,
+  "-sm": .5rem,
+  "-md": .75rem,
+  "": .75rem,
+  "-lg": 1rem,
+  "-xl": 1.5rem);
+
+@mixin icon($u, $em, $c) {
   display         : inline-block;
   width           : $em;
   height          : $em;
-  background-image: escape-svg($u);
-  color           : inherit;
+  font-size       : $em;
+  background-image: escape-svg(url(str-replace(str-replace($u, '1em', $em), 'currentColor', $c)));
 }
-
-@mixin icon-xl($u) {
-  @include icon($u, 1.5rem);
-}
-
-@mixin icon-lg($u) {
-  @include icon($u, 1rem);
-}
-
-@mixin icon-md($u) {
-  @include icon($u, .75rem);
-}
-
-@mixin icon-sm($u) {
-  @include icon($u, .5rem);
-}
-
-@mixin icon-xs($u) {
-  @include icon($u, .25rem);
-}
-
-$escaped-characters: (("<", "%3c"),
-  (">", "%3e"),
-  ("#", "%23"),
-) !default;
-
-@function str-replace($string, $search, $replace: "") {
-  $index: str-index($string, $search);
-
-  @if $index {
-    @return str-slice($string, 1, $index - 1)+$replace+str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
-  }
-
-  @return $string;
-}
-
-// See https://codepen.io/kevinweber/pen/dXWoRw
-@function escape-svg($string) {
-  @if str-index($string, "data:image/svg+xml") {
-
-    @each $char,
-    $encoded in $escaped-characters {
-      $string: str-replace($string, $char, $encoded);
-    }
-  }
-
-  @return $string;
-}
-
-$sizes: 0;

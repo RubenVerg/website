@@ -94,32 +94,17 @@ let afterCopy = e => {
 		for (let svg of sass) {
 			logDD(`Adding ${svg.name} to SCSS`);
 			result += `
-$icon-${svg.name}-md: url("data:image/svg+xml,${svg.contents.split(/1em/).join('0.75em')}");
-.bi-${svg.name}, .bi-${svg.name}-md {
-@include icon-md($icon-${svg.name}-md);
-}
-
-$icon-${svg.name}-xl: url("data:image/svg+xml,${svg.contents.split(/1em/).join('1.5em')}");
-.bi-${svg.name}-xl {
-@include icon-xl($icon-${svg.name}-xl);
-}
-
-$icon-${svg.name}-lg: url("data:image/svg+xml,${svg.contents.split(/1em/).join('1em')}");
-.bi-${svg.name}-lg {
-@include icon-lg($icon-${svg.name}-lg);
-}
-
-$icon-${svg.name}-sm: url("data:image/svg+xml,${svg.contents.split(/1em/).join('0.5em')}");
-.bi-${svg.name}-sm {
-@include icon-sm($icon-${svg.name}-sm);
-}
-
-$icon-${svg.name}-xs: url("data:image/svg+xml,${svg.contents.split(/1em/).join('0.25em')}");
-.bi-${svg.name}-xs {
-@include icon-xs($icon-${svg.name}-xs);
-}
-
-`;
+@each $sizename, $size in $icon-sizes {
+	@each $themecol, $value in $theme-colors {
+		.bi-${svg.name}-#{$themecol}#{$sizename} {
+			@include icon(
+				"${svg.contents}",
+				$size,
+				$value
+			)
+		}
+	}
+}`;
 		}
 		logD(c.cyan('Saving...'));
 		fs.writeFileSync('./bootstrap/scss/c_icons.scss', result);
