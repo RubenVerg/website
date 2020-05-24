@@ -8,8 +8,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "node bootstrap\\compileAll.js",
-    "build": "npm run-script build:css"
+    "build:css": "node bootstrap\\compileAll.js false",
+    "build": "npm run-script build:css",
+    "dl:css": "node bootstrap\\compileAll.js true",
+    "dl": "npm run-script dl:css"
   },
   "repository": {
     "type": "git",

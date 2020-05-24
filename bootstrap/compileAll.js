@@ -3,6 +3,8 @@ const chalk = require('chalk');
 const child = require('child_process');
 const sps = require('ora_spinners');
 
+const toDL = process.argv[2] === 'true';
+
 const spinner = ora({
 	text: '~~~',
 	spinner: {
@@ -74,7 +76,7 @@ child.exec('sass bootstrap\\scss\\c_bootstrap.scss bootstrap\\dist\\bootstrap.cs
 	if (e) throw e;
 	done('Bootstrap compiled!');
 	act('Building icons...');
-	child.exec(`cross-env-shell DEBUG_BSC=${process.env.DEBUG_BSC} node bootstrap\\norm.js`, (e,o) => {
+	child.exec(`node bootstrap\\norm.js ${toDL}`, (e,o) => {
 		if (e) throw e;
 		if (o) o = o.split(/\n/);
 		if (o) o.pop();
