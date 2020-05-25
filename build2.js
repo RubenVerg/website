@@ -10,7 +10,7 @@ const start = Date.now();
 spinner.start();
 
 
-exec('node build.js && node donebuild.js', (e, o) => {
+exec('node build.js && node donebuild.js && node homebuild.js', (e, o) => {
   if (e) {
     spinner.stopAndPersist({
       text: 'Compiling failed!',
