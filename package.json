@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css": "node bootstrap\\compileAll.js"
+    "build": "node build2.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/rubenverg/website#readme",
   "dependencies": {
+    "jsdom": "^16.2.2"
+  },
+  "devDependencies": {
     "ora": "^4.0.4",
     "ora_spinners": "^1.0.2"
   }
