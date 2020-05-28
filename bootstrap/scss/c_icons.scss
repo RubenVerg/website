@@ -16,6 +16,20 @@ $icon-sizes: ("-xs": .25rem,
   font-size       : $em;
   background-image: escape-svg(url(str-replace(str-replace($u, '1em', $em), 'currentColor', $c)));
 }
+
+@each $icon, $icon-text in $icons {
+  @each $color, $color-value in $theme-colors {
+    @each $size, $size-rems in $icon-sizes {
+      .bi-#{$icon}-#{$color}#{$size} {
+        @include icon(
+          $icon-text,
+          $size-rems,
+          $color-value
+        );
+      }
+    }
+  }
+}
 @each $sizename, $size in $icon-sizes {
 	@each $themecol, $value in $theme-colors {
 		.bi-list-nested-#{$themecol}#{$sizename} {

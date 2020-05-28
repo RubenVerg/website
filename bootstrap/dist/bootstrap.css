@@ -8088,16 +8088,56 @@ button.bg-grayish:focus {
   box-shadow: none !important;
 }
 
+.w-0 {
+  width: 0% !important;
+}
+
+.w-5 {
+  width: 5% !important;
+}
+
+.w-10 {
+  width: 10% !important;
+}
+
+.w-20 {
+  width: 20% !important;
+}
+
 .w-25 {
   width: 25% !important;
+}
+
+.w-30 {
+  width: 30% !important;
+}
+
+.w-40 {
+  width: 40% !important;
 }
 
 .w-50 {
   width: 50% !important;
 }
 
+.w-60 {
+  width: 60% !important;
+}
+
+.w-70 {
+  width: 70% !important;
+}
+
 .w-75 {
   width: 75% !important;
+}
+
+.w-80 {
+  width: 80% !important;
+}
+
+.w-90 {
+  width: 90% !important;
 }
 
 .w-100 {
@@ -8108,16 +8148,56 @@ button.bg-grayish:focus {
   width: auto !important;
 }
 
+.h-0 {
+  height: 0% !important;
+}
+
+.h-5 {
+  height: 5% !important;
+}
+
+.h-10 {
+  height: 10% !important;
+}
+
+.h-20 {
+  height: 20% !important;
+}
+
 .h-25 {
   height: 25% !important;
+}
+
+.h-30 {
+  height: 30% !important;
+}
+
+.h-40 {
+  height: 40% !important;
 }
 
 .h-50 {
   height: 50% !important;
 }
 
+.h-60 {
+  height: 60% !important;
+}
+
+.h-70 {
+  height: 70% !important;
+}
+
 .h-75 {
   height: 75% !important;
+}
+
+.h-80 {
+  height: 80% !important;
+}
+
+.h-90 {
+  height: 90% !important;
 }
 
 .h-100 {
@@ -8126,6 +8206,110 @@ button.bg-grayish:focus {
 
 .h-auto {
   height: auto !important;
+}
+
+.vw-5 {
+  width: 5vw !important;
+}
+
+.vw-10 {
+  width: 10vw !important;
+}
+
+.vw-20 {
+  width: 20vw !important;
+}
+
+.vw-25 {
+  width: 25vw !important;
+}
+
+.vw-30 {
+  width: 30vw !important;
+}
+
+.vw-40 {
+  width: 40vw !important;
+}
+
+.vw-50 {
+  width: 50vw !important;
+}
+
+.vw-60 {
+  width: 60vw !important;
+}
+
+.vw-70 {
+  width: 70vw !important;
+}
+
+.vw-75 {
+  width: 75vw !important;
+}
+
+.vw-80 {
+  width: 80vw !important;
+}
+
+.vw-90 {
+  width: 90vw !important;
+}
+
+.vw-100 {
+  width: 100vw !important;
+}
+
+.vh-5 {
+  height: 5vh !important;
+}
+
+.vh-10 {
+  height: 10vh !important;
+}
+
+.vh-20 {
+  height: 20vh !important;
+}
+
+.vh-25 {
+  height: 25vh !important;
+}
+
+.vh-30 {
+  height: 30vh !important;
+}
+
+.vh-40 {
+  height: 40vh !important;
+}
+
+.vh-50 {
+  height: 50vh !important;
+}
+
+.vh-60 {
+  height: 60vh !important;
+}
+
+.vh-70 {
+  height: 70vh !important;
+}
+
+.vh-75 {
+  height: 75vh !important;
+}
+
+.vh-80 {
+  height: 80vh !important;
+}
+
+.vh-90 {
+  height: 90vh !important;
+}
+
+.vh-100 {
+  height: 100vh !important;
 }
 
 .mw-100 {
@@ -8142,14 +8326,6 @@ button.bg-grayish:focus {
 
 .min-vh-100 {
   min-height: 100vh !important;
-}
-
-.vw-100 {
-  width: 100vw !important;
-}
-
-.vh-100 {
-  height: 100vh !important;
 }
 
 .stretched-link::after {

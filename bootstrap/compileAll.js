@@ -76,7 +76,7 @@ child.exec('sass bootstrap\\scss\\c_bootstrap.scss bootstrap\\dist\\bootstrap.cs
 	if (e) throw e;
 	done('Bootstrap compiled!');
 	act('Building icons...');
-	child.exec(`node bootstrap\\norm.js ${toDL}`, (e,o) => {
+	child.exec(`node bootstrap\\better.js ${toDL}`, (e,o) => {
 		if (e) throw e;
 		if (o) o = o.split(/\n/);
 		if (o) o.pop();
@@ -84,7 +84,7 @@ child.exec('sass bootstrap\\scss\\c_bootstrap.scss bootstrap\\dist\\bootstrap.cs
 		done('Icons built!');
 		if (o) calcSpin();
 		act('Compiling icons...');
-		child.exec('sass bootstrap\\scss\\c_icons.scss bootstrap\\dist\\icons.css', e => {
+		child.exec('sass bootstrap\\scss\\c_icons_2.scss bootstrap\\dist\\icons.css', e => {
 			if (e) throw e;
 			done('Icons compiled!');
 			act('Compiling other Bootstrap files...');
