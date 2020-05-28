@@ -6604,21 +6604,22 @@ a.close.disabled {
 .carousel-indicators .active {
   opacity: 1;
 }
+@media (min-width: 768px) {
+  .carousel-indicators {
+    top: 97%;
+  }
+}
 
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 20px;
+  bottom: 0px;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #d8f4bc;
   text-align: center;
-}
-
-.carousel-caption-bg {
-  background: rgba(55, 60, 63, 0.75);
 }
 
 @keyframes spinner-border {
