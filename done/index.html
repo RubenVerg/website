@@ -11,11 +11,64 @@
   <link rel="stylesheet" href="https://files.rubenverg.com/bootstrap/dist/icons.css">
 </head>
 
-<body class='m-5'>
-  <table class="table table-striped table-hover"><thead class="thead-light"><th scope="col">Materia</th><th scope="col">Stato</th><th scope="col">Percentuale <i class="bi-asterisk-danger-sm"></i></th><th scope="col">Note</th></thead><tbody><tr><th scope="row">Geografia</th><td><i class="bi-check-circle-fill-success-xl "></i></td><td><code>99%</code></td><td>Forse da allungare ancora un po'?</td></tr><tr><th scope="row">Inglese</th><td><i class="bi-slash-circle-fill-warning-xl "></i></td><td><code>95%</code></td><td>Deve essere approvato, ma adesso é giá su nel sito in caso che ci sono solo piccoli errori che posso sistemare senza rigirare tutto</td></tr><tr><th scope="row">Letteratura</th><td><i class="bi-slash-circle-fill-warning-xl "></i></td><td><code>diciamo 30%</code></td><td>Ho scritto la trama...</td></tr><tr><th scope="row">Musica</th><td><i class="bi-check-circle-fill-success-xl "></i></td><td><code>100%</code></td><td></td></tr><tr><th scope="row">Scienze</th><td><i class="bi-check-circle-fill-success-xl "></i></td><td><code>100%</code></td><td></td></tr><tr><th scope="row">Tecnologia</th><td><i class="bi-exclamation-circle-fill-danger-xl "></i></td><td><code>da 5% a 10%</code></td><td>Ho letto qualcosa</td></tr><tr><th scope="row">Storia</th><td><i class="bi-exclamation-circle-fill-danger-xl "></i></td><td><code>0%</code></td><td>da attaccare a geo, la dobbiamo fare adesso a scuola</td></tr><tr><th scope="row">Arte</th><td><i class="bi-exclamation-circle-fill-danger-xl "></i></td><td><code>0%</code></td><td>◉︵◉</td></tr><tr><th scope="row">Spagnolo</th><td><i class="bi-exclamation-circle-fill-danger-xl "></i></td><td><code>1%</code></td><td>ci sto pensando un po'</td></tr><tr><th scope="row">Matematica</th><td><i class="bi-exclamation-circle-fill-danger-xl "></i></td><td><code>-100%</code></td><td>facoltativo, ma l'ho detto alla prof e secondo me si offende se poi alla fine non lo faccio</td></tr></tbody></table><a href="/" class="btn btn-primary"><i class="bi-chevron-double-left"></i>Home</a>
+<body>
+  <nav class="sticky-top navbar navbar-expand-lg navbar-light bg-lprimary">
+  <a href="/" class="navbar-brand">Le Teorie Complottistiche</a>
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#nav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
+  <div class="collapse navbar-collapse" id="nav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item $">
+        <a href="/" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item $">
+        <a href="/introduzione/" class="nav-link">Introduzione</a>
+      </li>
+      <li class="nav-item dropdown $">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+          Materie
+        </a>
+        <div class="dropdown-menu">
+          <a href="/scienze/" class="dropdown-item $">Scienze</a>
+          <a href="/storia/" class="dropdown-item $">Storia</a>
+          <a href="/geografia/" class="dropdown-item $">Geografia</a>
+          <a href="/inglese/" class="dropdown-item $">Inglese</a>
+          <a href="/matematica/" class="dropdown-item $">Matematica</a>
+          <a href="/letteratura/" class="dropdown-item $">Letteratura</a>
+
+          <a href="/musica/" class="dropdown-item $">Musica</a>
+          <a href="/tecnologia/" class="dropdown-item $">Tecnologia</a>
+          <a href="/arte/" class="dropdown-item $">Arte</a>
+          <a href="/spagnolo/" class="dropdown-item $">Spagnolo</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a href="/fonti/" class="nav-link $">Fonti<!--, ringraziamentazioni ecc--></a>
+      </li>
+      <li class="nav-item">
+        <a href="/conclusione/" class="nav-link $">Conclusione</a>
+      </li>
+      <li class="nav-item">
+        <a href="/done/" class="nav-link">—DA TOGLIERE— COSE FATTE —DA TOGLIERE—</a>
+      </li>
+    </ul> <!-- navbar-nav -->
+  </div> <!-- collapse -->
+</nav><table class="table table-striped table-small table-sm"><thead class="thead-light"><th scope="col">Materia / Roba</th><th scope="col">Stato</th><th scope="col">Percentuale <i class="bi-asterisk-danger-sm"></i></th><th scope="col">Note</th></thead><tbody><tr><th scope="row">Scienze</th><td><i class="bi-plus-circle-fill-success-xl"></i></td><td><code>100%</code></td><td></td></tr><tr><th scope="row">Storia</th><td><i class="bi-check-circle-fill-success-xl"></i></td><td><code>100%</code></td><td>da attaccare a geo, la dobbiamo fare adesso a scuola</td></tr><tr><th scope="row">Geografia</th><td><i class="bi-plus-circle-fill-success-xl"></i></td><td><code>100%</code></td><td>forse da allungare ancora un po'?</td></tr><tr><th scope="row">Inglese</th><td><i class="bi-exclamation-circle-fill-success-xl"></i></td><td><code>100%</code></td><td></td></tr><tr><th scope="row">Matematica</th><td><i class="bi-dash-circle-fill-warning-xl"></i></td><td><code>20%</code></td><td>ho letto qualcosa</td></tr><tr><th scope="row">Letteratura</th><td><i class="bi-slash-circle-fill-warning-xl"></i></td><td><code>25%</code></td><td>ho scritto la trama...</td></tr><tr><th scope="row">Musica</th><td><i class="bi-plus-circle-fill-success-xl"></i></td><td><code>100%</code></td><td></td></tr><tr><th scope="row">Tecnologia</th><td><i class="bi-plus-circle-fill-success-xl"></i></td><td><code>100%</code></td><td></td></tr><tr><th scope="row">Arte</th><td><i class="bi-check-circle-fill-success-xl"></i></td><td><code>100%</code></td><td></td></tr><tr><th scope="row">Spagnolo</th><td><i class="bi-plus-circle-fill-success-xl"></i></td><td><code>100%</code></td><td></td></tr><tr><th scope="row">Divisore</th><td><i class="bi-dash-circle-fill-dark-xl"></i></td><td><code>10000000000%</code></td><td>————————————————————— (pesa 0, tranquilli)</td></tr><tr><th scope="row">Stile</th><td><i class="bi-check-circle-fill-success-xl"></i></td><td><code>99%</code></td><td>usa bootstrap, non é che c'é tanto da fare</td></tr><tr><th scope="row">Icone</th><td><i class="bi-dash-circle-fill-warning-xl"></i></td><td><code>50%</code></td><td><strong>AAAAAAAAAAAAAAAAAAA VENTI MEGAAAAA</strong></td></tr><tr><th scope="row">Home</th><td><i class="bi-slash-circle-fill-success-xl"></i></td><td><code>90%</code></td><td>mancano le cards, ma ci vuole un attimo (spero)</td></tr><tr><th scope="row">Fonti</th><td><i class="bi-slash-circle-fill-success-xl"></i></td><td><code>100%</code></td><td>la percentuale 100 significa 100% *delle cose fatte*</td></tr><tr><th scope="row">Intro</th><td><i class="bi-slash-circle-fill-success-xl"></i></td><td><code>95%</code></td><td>boh</td></tr><tr><th scope="row">Conclusione</th><td><i class="bi-question-circle-fill-warning-xl"></i></td><td><code>25%</code></td><td>?</td></tr></tbody></table>
+<div class="progress w-90 mx-auto"><div class="progress-bar progress-bar-striped progress-bar-animated bg-dprimary" style="width: 89.72727272727272%;" data-toggle="tooltip" data-placement="top" title="Su 1925 punti, fatti 1727.25.">90% delle cose (calibrato non molto bene)</div></div><div class="progress w-90 mx-auto"><div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 88.50257269930725%;">89% del tempo (0-24!)</div><div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 1.2247000279654685%;" data-toggle="tooltip" data-placement="left" data-html="true" title="Sono 1.225% avanti sulla <em>schedule</em> 😐">1%</div></div>
+
+  <a href="/" class="btn btn-primary"><i class="bi-chevron-double-left-dark"></i>Home</a>
   <p class="text-muted">
     <i class="bi-asterisk-danger"></i> Completamente indicativa e senza alcun valore effettivo!
+  </p>
+  <p>
+    I simboli (<i class="bi-question-dark"></i>, <i class="bi-exclamation-dark"></i>, <i class="bi-x-dark"></i>, <i
+      class="bi-slash-dark"></i>, <i class="bi-dash-circle-dark"></i> e <i class="bi-check-dark"></i>) indicano lo stato
+    in termine di completamento, mentre i <span class="text-info">c</span><span class="text-lighter">o</span><span
+      class="text-success">l</span><span class="text-warning">o</span><span class="text-danger">ri</span> inicano lo
+    stato 'ufficiale,' che include anche
+    la necessitá di essere approvato.
   </p>
   <script src='https://code.jquery.com/jquery-3.4.1.slim.min.js'
     integrity='sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n' crossorigin=anonymous></script>
@@ -23,6 +76,11 @@
     integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo' crossorigin=anonymous></script>
   <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'
     integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6' crossorigin=anonymous></script>
+  <script>
+    jQuery(function () {
+      jQuery('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
 </body>
 
 </html>

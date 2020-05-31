@@ -1,0 +1,5 @@
+MATERIA   ,IMMAGINE     ,TITOLO                                  ,SUB                      ,DESC
+scienze   ,bandiera.jpg ,La Luna!                                ,Ci siamo mai stati?      ,Questa immagine dovrebbe provare il contrario.
+geografia ,mode1.png    ,La Finlandia                            ,Esiste veramente?        ,Questa immagine mostra come alcuni credono sia la Finlandia!
+musica    ,abbey.jpeg   ,Paul McCartney                          ,É veramente ancora vivo? ,Alcuni dicono di no e che questa immagine ne sia la prova.
+arte      ,ancora.jpg   ,L'Ultimo Abboccamento di Jacopo Foscari ,                         ,In questo quadro\, si vede un ragazzo essere ingiustamente condannato per aver conspirato contro la sua famiglia.

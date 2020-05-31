@@ -11,11 +11,20 @@
   <link rel="stylesheet" href="https://files.rubenverg.com/bootstrap/dist/icons.css">
 </head>
 
-<body class='m-5'>
+<body>
   $
 
+  <a href="/" class="btn btn-primary"><i class="bi-chevron-double-left-dark"></i>Home</a>
   <p class="text-muted">
     <i class="bi-asterisk-danger"></i> Completamente indicativa e senza alcun valore effettivo!
+  </p>
+  <p>
+    I simboli (<i class="bi-question-dark"></i>, <i class="bi-exclamation-dark"></i>, <i class="bi-x-dark"></i>, <i
+      class="bi-slash-dark"></i>, <i class="bi-dash-circle-dark"></i> e <i class="bi-check-dark"></i>) indicano lo stato
+    in termine di completamento, mentre i <span class="text-info">c</span><span class="text-lighter">o</span><span
+      class="text-success">l</span><span class="text-warning">o</span><span class="text-danger">ri</span> inicano lo
+    stato 'ufficiale,' che include anche
+    la necessitá di essere approvato.
   </p>
   <script src='https://code.jquery.com/jquery-3.4.1.slim.min.js'
     integrity='sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n' crossorigin=anonymous></script>
@@ -23,6 +32,11 @@
     integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo' crossorigin=anonymous></script>
   <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'
     integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6' crossorigin=anonymous></script>
+  <script>
+    jQuery(function () {
+      jQuery('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
 </body>
 
 </html>

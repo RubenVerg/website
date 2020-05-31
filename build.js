@@ -1,3 +1,6 @@
+console.log(`${Date.now()}|Starting\n\n\n`);
+console.log(`${Date.now()}|Starting 'normal' pages`);
+
 const files = [
 	"tecnologia",
 	"letteratura",
@@ -7,7 +10,11 @@ const files = [
 	"musica",
 	"arte",
 	"scienze",
-	"spagnolo"
+	"spagnolo",
+	"matematica",
+	"fonti",
+	"introduzione",
+	"conclusione",
 ];
 
 const chalk = require('chalk')
@@ -22,6 +29,7 @@ const outer = fs.readFileSync('wrap.html', 'utf-8'),
 	navs = nav.split('$');
 
 for (let dir of files) {
+	console.log(`${Date.now()}|File ${dir} started`);
 	try {
 		const inner = fs.readFileSync(path.join(dir, 'main.html'), 'utf-8');
 		const comment = inner.split('\n')[1].trim() + '\n' + inner.split('\n')[2].trim() + '\n' + inner.split('\n')[3].trim() + '\n' + inner.split('\n')[4].trim() + '\n' + inner.split('\n')[5].trim();
@@ -48,7 +56,7 @@ for (let dir of files) {
 		for (let place of navs) {
 			// 14 loops.
 			navRes += place;
-			if (navs.indexOf(place) === 1 && isM) {
+			if (navs.indexOf(place) === 2 && isM) {
 				navRes += 'active'
 			}
 			if (navs.indexOf(place) === pos) {
@@ -82,7 +90,9 @@ for (let dir of files) {
 		}
 		// console.log(res);
 		fs.writeFileSync(path.join(dir, 'index.html'), res);
+		console.log(`${Date.now()}|File ${dir} done\n`);
 	} catch {
-		console.log(`Directory '${chalk.green(dir)}' or file '${chalk.green(path.join(dir, 'main.html'))}' does not exist.`)
+		console.log(`${Date.now()}|Directory ${dir} or file ${path.join(dir, 'main.html')} do not exist, skipping`)
 	}
 }
+console.log(`${Date.now()}|'Normal" done\n\n`);
