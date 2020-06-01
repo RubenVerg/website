@@ -108,7 +108,7 @@ progress.classList.add('progress-bar-striped');
 progress.classList.add('progress-bar-animated');
 progress.classList.add('bg-dprimary');
 progress.style.width = calc / total * 100 + '%';
-progress.textContent = (calc / total * 100).toFixed(0) + '% delle cose (calibrato non molto bene)';
+progress.textContent = (calc / total * 100) + '% delle cose (calibrato non molto bene)';
 progress.dataset.toggle = 'tooltip';
 progress.dataset.placement = 'top';
 progress.title = `Su ${total} punti, fatti ${calc}.`
@@ -125,7 +125,7 @@ dayProgress.classList.add('progress-bar-striped');
 dayProgress.classList.add('progress-bar-animated');
 dayProgress.classList.add('bg-danger');
 dayProgress.style.width = ((passedTime / 1000 / 60 / 60 / 24) / (totalTime / 1000 / 60 / 60 / 24) * 100) + '%';
-dayProgress.textContent = (((passedTime / 1000 / 60 / 60 / 24) / (totalTime / 1000 / 60 / 60 / 24) * 100)).toFixed(0) + '% del tempo (0-24!)';
+dayProgress.textContent = (((passedTime / 1000 / 60 / 60 / 24) / (totalTime / 1000 / 60 / 60 / 24) * 100)) + '% del tempo (0-24!)';
 dayProgressWrap.appendChild(dayProgress);
 
 const timePercent = (passedTime / 1000 / 60 / 60 / 24) / (totalTime / 1000 / 60 / 60 / 24) * 100;
@@ -142,7 +142,7 @@ manca.style.width = difference + '%';
 manca.dataset.toggle = 'tooltip';
 manca.dataset.placement = 'left';
 manca.dataset.html = 'true';
-manca.title = 'Sono ' + difference.toFixed(3) + '% ' + (is ? 'indietro' : 'avanti') + ' sulla <em>schedule</em> ' + ((d, i) => {
+manca.title = 'Sono ' + difference + '% ' + (is ? 'indietro' : 'avanti') + ' sulla <em>schedule</em> ' + ((d, i) => {
   if (i) {
     // All for being late
     if (d <= 5) return '😯';
@@ -156,10 +156,10 @@ manca.title = 'Sono ' + difference.toFixed(3) + '% ' + (is ? 'indietro' : 'avant
     if (d <= 10) return '🙂';
     if (d <= 25) return '😄';
     if (d <= 50) return '😁';
-    /*  d <=100*/return '🤣';
+    /*  d <=100*/return '🥱';
   }
 })(difference, is);
-manca.textContent = (is ? '-' : '') + difference.toFixed(0) + '%'
+manca.textContent = (is ? '-' : '') + difference + '%'
 if (is) {
   progressWrap.appendChild(manca);
 } else {
