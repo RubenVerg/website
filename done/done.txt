@@ -1,6 +1,6 @@
 MATERIA     |ICONA    |COLORE  |NOTE (o nulla)                                       |PERCENTUALE  |PESO |MATERIA AGAIN |
 scienze     |plus     |success |                                                     |100%         |2    |scienze       |
-storia      |check    |success |da attaccare a geo, la dobbiamo fare adesso a scuola |100%         |1    |storia        |
+storia      |plus     |success |da attaccare a geo, la dobbiamo fare adesso a scuola |100%         |2    |storia        |
 geografia   |plus     |success |forse da allungare ancora un po'?                    |100%         |2    |geografia     |
 inglese     |plus     |success |                                                     |100%         |2    |inglese       |
 matematica  |dash     |warning |ho letto qualcosa                                    |20%          |1    |matematica    |
