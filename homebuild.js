@@ -15,7 +15,7 @@ const carouselImages = fs.readFileSync('carousel.txt').toString().split(/\r?\n/)
 // -- Root DIV --
 let carousel = document.createElement('div');
 carousel.id = 'car';
-carousel.className = 'carousel slide';
+carousel.className = 'carousel slide mt-5';
 carousel.dataset.ride = 'carousel';
 
 // -- Indicators --
@@ -111,17 +111,17 @@ for (let id = 0; id < carouselImages.length; id++) {
 	}
 	caption.appendChild(p);
 
-	// Button
-	let button = document.createElement('a');
-	button.className = 'btn btn-primary';
-	button.href = `/${folder}/`;
-	button.textContent = 'Vai ';
+	// // Button
+	// let button = document.createElement('a');
+	// button.className = 'btn btn-primary';
+	// button.href = `/${folder}/`;
+	// button.textContent = 'Vai ';
 
-	let icon = document.createElement('img');
-	icon.src = 'https://files.rubenverg.com/bootstrap/icons/chevron-double-right.svg';
-	button.appendChild(icon);
+	// let icon = document.createElement('img');
+	// icon.src = 'https://files.rubenverg.com/bootstrap/icons/chevron-double-right.svg';
+	// button.appendChild(icon);
 
-	caption.appendChild(button);
+	// caption.appendChild(button);
 
 	// ~~ Appending ~~
 

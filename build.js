@@ -47,13 +47,17 @@ for (let dir of files) {
 	console.log(`${Date.now()}|File ${dir} started`);
 	try {
 		const inner = fs.readFileSync(path.join(dir, 'main.html'), 'utf-8');
-		const comment = inner.split('\n')[1].trim() + '\n' + inner.split('\n')[2].trim() + '\n' + inner.split('\n')[3].trim() + '\n' + inner.split('\n')[4].trim() + '\n' + inner.split('\n')[5].trim() + '\n' + inner.split('\n')[6].trim();
+		const comment = inner.split('\n')[1].trim() + '\n' + inner.split('\n')[2].trim() + '\n' + inner.split('\n')[3].trim() + '\n' + inner.split('\n')[4].trim() + '\n' + inner.split('\n')[5].trim() + '\n' + inner.split('\n')[6].trim() + '\n' + inner.split('\n')[7].trim() + '\n' + inner.split('\n')[8].trim();
 		const title = comment.split('\n')[0];
 		const subtitle = comment.split('\n')[1];
 		const html = comment.split('\n')[2];
 		const pos = parseInt(comment.split('\n')[3]);
 		const image$ = comment.split('\n')[5];
+		const before = comment.split('\n')[6];
+		const after = comment.split('\n')[7];
 		let text = inner.split('\n');
+		text.shift();
+		text.shift();
 		text.shift();
 		text.shift();
 		text.shift();
@@ -80,6 +84,22 @@ for (let dir of files) {
 				navRes += 'active'
 			}
 		}
+
+		let buttonRes = document.createElement('div');
+		// buttonRes.classList.add('d-flex', 'justify-content-between');
+
+		let bwd = document.createElement('a');
+		bwd.classList.add('btn', 'btn-outline-dark', 'float-left', 'clearfix');
+		bwd.innerHTML = `<img src='https://files.rubenverg.com/bootstrap/icons/chevron-left.svg'> ${before[0].toUpperCase() + [...before].slice(1).join('')}`;
+		bwd.href = `/${before}`;
+		buttonRes.appendChild(bwd);
+
+		let fwd = document.createElement('a');
+		fwd.classList.add('btn', 'btn-primary', 'btn-lg', 'float-right', 'clearfix');
+		fwd.innerHTML = `${after[0].toUpperCase() + [...after].slice(1).join('')} <img src='https://files.rubenverg.com/bootstrap/icons/chevron-double-right.svg'>`;
+		fwd.href = `/${after}`;
+		buttonRes.appendChild(fwd);
+
 		// console.log(navRes);
 		let res = ''
 		for (let place of outers) {
@@ -100,6 +120,9 @@ for (let dir of files) {
 					break;
 				case 4:
 					res += text;
+					break;
+				case 5:
+					res += buttonRes.outerHTML;
 					break;
 				default:
 					break;
