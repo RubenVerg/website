@@ -1,11 +1,11 @@
 
-tecnologia	brucia.jpg	1	Il 5G		0	
-letteratura		0	Il pendolo di Foucault		0	La trama
-geografia	mode2.png	1	La Finlandia	Esiste davvero?	1	
-storia		0	La Guerra Fredda		0	Dopo la Seconda Guerra Mondiale, il mondo viene spartito tra un'area di influenza americana e una russa. L'URSS conrtolla l'est Europa,   mentre gli USA controllano la parte ad ovest.
-inglese		0	Australia	Does it really exist?	1	Until a few years ago, everyone was sure Australia existed. But one day in 2014, a girl from Australia posted on   Facebook a conspiracy theory she "made up while laying in bed," according to which the country she lives in doesn't   exist.
-musica	abbey.jpeg	1	Paul McCartney	e i Beatles	1	Secondo alcuni, Paul McCartney dei Beatles é morto. Secondo altri, solo Paul é veramente esistito. Secondo altri   ancora, i Beatles sono stati inventati dagli Illuminati.
-arte	ancora.jpg	1	L'Ultimo Abboccamento di Jacopo Foscari prima di partire per l'esilio cui era stato condannato – I due Foscari	di Hayez	1	Una delle due versioni del quadro
-scienze	iss.png	1	La Luna	Ci siamo mai stati?	1	Secondo alcuni, non siamo mai stati sulla Luna. La NASA ci avrebbe preso in giro per tutto questo tempo. Ma sarebbe possibile?
-spagnolo		0	Las teorías de conspiración		0	Una teoría de conspiración o teoría conspirativa es una teoría alternativa a la oficial que asocian unos eventos a la   acción segreta de grupos superiores. No se debía confundir las teorias conspirativas con las conspiraciones realmente   existidas.
-matematica	barca.png	1	Il terrapiattismo		0	Alcune persone sono convinte che la Terra sia piatta.
+tecnologia	brucia.jpg	1	Il 5G		0
+letteratura		0	Il pendolo di Foucault		0
+geografia	mode2.png	1	La Finlandia	Esiste davvero?	1
+storia		0	La Guerra Fredda		0
+inglese		0	Australia	Does it really exist?	1
+musica	abbey.jpeg	1	Paul McCartney	e i Beatles	1
+arte	ancora.jpg	1	L'Ultimo Abboccamento di Jacopo Foscari prima di partire per l'esilio cui era stato condannato – I due Foscari	di Hayez	1
+scienze	bandiera.jpg	1	La Luna	Ci siamo mai stati?	1
+spagnolo		0	Las teorías de conspiración		0
+matematica	barca.png	1	Il terrapiattismo		0

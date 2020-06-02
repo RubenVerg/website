@@ -117,8 +117,8 @@ for (let id = 0; id < carouselImages.length; id++) {
 	button.href = `/${folder}/`;
 	button.textContent = 'Vai ';
 
-	let icon = document.createElement('i');
-	icon.className = 'bi-chevron-double-right-dark';
+	let icon = document.createElement('img');
+	icon.src = 'https://files.rubenverg.com/bootstrap/icons/chevron-double-right.svg';
 	button.appendChild(icon);
 
 	caption.appendChild(button);
@@ -143,11 +143,9 @@ for (let id = 0; id < carouselImages.length; id++) {
 // == CARDS ==
 
 let cardWrapper = document.createElement('div');
-cardWrapper.classList.add('row', 'row-cols-1', 'row-cols-md-3');
+cardWrapper.classList.add('card-columns');
 for (let line of fs.readFileSync('cards.txt').toString().split(/\r?\n/).slice(1).map(i => i.trim())) {
-	let pieces = line.split(/\t+/);
-	let col = document.createElement('div');
-	col.classList.add('col', 'mb-4');
+	let pieces = line.split(/\t/);
 	let card = document.createElement('div');
 	card.classList.add('card');
 	let header = document.createElement('header');
@@ -156,6 +154,7 @@ for (let line of fs.readFileSync('cards.txt').toString().split(/\r?\n/).slice(1)
 	card.appendChild(header);
 	let img = document.createElement('img');
 	img.src = pieces[0] + '/' + pieces[1];
+	img.style.width = '100%';
 	if (Boolean(+pieces[2])) card.appendChild(img);
 	let cardBody = document.createElement('div');
 	cardBody.classList.add('card-body');
@@ -167,10 +166,6 @@ for (let line of fs.readFileSync('cards.txt').toString().split(/\r?\n/).slice(1)
 	subtitle.classList.add('card-subtitle', 'mb-2', 'text-muted');
 	subtitle.textContent = pieces[4];
 	if (Boolean(+pieces[5])) cardBody.appendChild(subtitle);
-	let text = document.createElement('p');
-	text.classList.add('card-text');
-	text.textContent = pieces[6];
-	cardBody.appendChild(text);
 	let go = document.createElement('a');
 	go.href = pieces[0];
 	go.classList.add('btn', 'btn-primary');
@@ -180,13 +175,12 @@ for (let line of fs.readFileSync('cards.txt').toString().split(/\r?\n/).slice(1)
 	go.appendChild(goImage);
 	cardBody.appendChild(go)
 	card.appendChild(cardBody);
-	col.appendChild(card)
-	cardWrapper.appendChild(col);
+	cardWrapper.appendChild(card);
 }
 
 // console.log(`${Date.now()}|${cardWrapper.outerHTML}`)
 
-const result = head + nav + tail.split(/~~~~~/)[0] + carousel.outerHTML + cardWrapper.outerHTML + tail.split(/~~~~~/)[1];
+const result = head + nav + tail.split(/~~~~~/)[0] + carousel.outerHTML + '<hr class="my-4 mx-5" />' + cardWrapper.outerHTML + tail.split(/~~~~~/)[1];
 
 fs.writeFileSync('index.html', result);
 console.log(`${Date.now()}|Home done\n\n\n`);

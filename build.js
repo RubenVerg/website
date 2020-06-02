@@ -106,7 +106,7 @@ for (let dir of files) {
 			}
 		}
 		if (cardFiles.indexOf(dir) !== -1)
-			cardResult += `\n${dir}\t${image$ || ''}\t${image$.trim() === '' ? 0 : 1}\t${title}\t${subtitle}\t${subtitle.trim() === '' ? 0 : 1}\t${(function () { let a = document.createElement('div'); a.innerHTML = text; return a.textContent.split(/(\n\n+|    +)/)[0].split(/\n/).join(' ').trim(); })()}`;
+			cardResult += `\n${dir}\t${image$ || ''}\t${image$.trim() === '' ? 0 : 1}\t${title}\t${subtitle}\t${subtitle.trim() === '' ? 0 : 1}`;
 
 		// console.log(res);
 		fs.writeFileSync(path.join(dir, 'index.html'), res);
