@@ -15,7 +15,7 @@ const carouselImages = fs.readFileSync('carousel.txt').toString().split(/\r?\n/)
 // -- Root DIV --
 let carousel = document.createElement('div');
 carousel.id = 'car';
-carousel.className = 'carousel slide mt-5';
+carousel.className = 'carousel slide mt-5 d-none';
 carousel.dataset.ride = 'carousel';
 
 // -- Indicators --
@@ -180,7 +180,7 @@ for (let line of fs.readFileSync('cards.txt').toString().split(/\r?\n/).slice(1)
 
 // console.log(`${Date.now()}|${cardWrapper.outerHTML}`)
 
-const result = head + nav + tail.split(/~~~~~/)[0] + carousel.outerHTML + '<hr class="my-4 mx-5" />' + cardWrapper.outerHTML + tail.split(/~~~~~/)[1];
+const result = head + nav + tail.split(/~~~~~/)[0] + carousel.outerHTML /*+ '<hr class="my-4 mx-5" />'*/ + cardWrapper.outerHTML + tail.split(/~~~~~/)[1];
 
 fs.writeFileSync('index.html', result);
 console.log(`${Date.now()}|Home done\n\n\n`);

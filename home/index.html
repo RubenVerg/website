@@ -1,0 +1,7 @@
+<script>
+	window.location.href = (function() {
+		let u = new URL(window.location.href);
+		u.pathname = '';
+		return u.toString();
+	})()
+</script>
