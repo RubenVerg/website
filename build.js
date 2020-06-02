@@ -17,11 +17,26 @@ const files = [
 	"conclusione",
 ];
 
+const cardFiles = [
+	'tecnologia',
+	'letteratura',
+	'geografia',
+	'storia',
+	'inglese',
+	'musica',
+	'arte',
+	'scienze',
+	'spagnolo',
+	'matematica'
+]
+
 const chalk = require('chalk')
 
 const document = (new (require('jsdom')).JSDOM(``)).window.document;
 
 const fs = require('fs'), path = require('path');
+
+let cardResult = '';
 
 const outer = fs.readFileSync('wrap.html', 'utf-8'),
 	outers = outer.split('$'),
@@ -32,12 +47,14 @@ for (let dir of files) {
 	console.log(`${Date.now()}|File ${dir} started`);
 	try {
 		const inner = fs.readFileSync(path.join(dir, 'main.html'), 'utf-8');
-		const comment = inner.split('\n')[1].trim() + '\n' + inner.split('\n')[2].trim() + '\n' + inner.split('\n')[3].trim() + '\n' + inner.split('\n')[4].trim() + '\n' + inner.split('\n')[5].trim();
+		const comment = inner.split('\n')[1].trim() + '\n' + inner.split('\n')[2].trim() + '\n' + inner.split('\n')[3].trim() + '\n' + inner.split('\n')[4].trim() + '\n' + inner.split('\n')[5].trim() + '\n' + inner.split('\n')[6].trim();
 		const title = comment.split('\n')[0];
 		const subtitle = comment.split('\n')[1];
 		const html = comment.split('\n')[2];
 		const pos = parseInt(comment.split('\n')[3]);
+		const image$ = comment.split('\n')[5];
 		let text = inner.split('\n');
+		text.shift();
 		text.shift();
 		text.shift();
 		text.shift();
@@ -88,6 +105,9 @@ for (let dir of files) {
 					break;
 			}
 		}
+		if (cardFiles.indexOf(dir) !== -1)
+			cardResult += `\n${dir}\t${image$ || ''}\t${image$.trim() === '' ? 0 : 1}\t${title}\t${subtitle}\t${subtitle.trim() === '' ? 0 : 1}\t${(function () { let a = document.createElement('div'); a.innerHTML = text; return a.textContent.split(/(\n\n+|    +)/)[0].split(/\n/).join(' ').trim(); })()}`;
+
 		// console.log(res);
 		fs.writeFileSync(path.join(dir, 'index.html'), res);
 		console.log(`${Date.now()}|File ${dir} done\n`);
@@ -95,4 +115,5 @@ for (let dir of files) {
 		console.log(`${Date.now()}|Directory ${dir} or file ${path.join(dir, 'main.html')} do not exist, skipping`)
 	}
 }
+fs.writeFileSync('cards.txt', cardResult);
 console.log(`${Date.now()}|'Normal" done\n\n`);

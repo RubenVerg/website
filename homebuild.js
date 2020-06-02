@@ -140,9 +140,53 @@ for (let id = 0; id < carouselImages.length; id++) {
 	indicators.appendChild(ind)
 }
 
-const result = head + nav + tail.split(/~~~~~/)[0] + carousel.outerHTML + tail.split(/~~~~~/)[1];
+// == CARDS ==
 
-// console.log(carousel.outerHTML)
+let cardWrapper = document.createElement('div');
+cardWrapper.classList.add('row', 'row-cols-1', 'row-cols-md-3');
+for (let line of fs.readFileSync('cards.txt').toString().split(/\r?\n/).slice(1).map(i => i.trim())) {
+	let pieces = line.split(/\t+/);
+	let col = document.createElement('div');
+	col.classList.add('col', 'mb-4');
+	let card = document.createElement('div');
+	card.classList.add('card');
+	let header = document.createElement('header');
+	header.classList.add('card-header');
+	header.textContent = pieces[0][0].toUpperCase() + [...pieces[0]].slice(1).join('');
+	card.appendChild(header);
+	let img = document.createElement('img');
+	img.src = pieces[0] + '/' + pieces[1];
+	if (Boolean(+pieces[2])) card.appendChild(img);
+	let cardBody = document.createElement('div');
+	cardBody.classList.add('card-body');
+	let title = document.createElement('h5');
+	title.classList.add('card-title');
+	title.textContent = pieces[3];
+	cardBody.appendChild(title);
+	let subtitle = document.createElement('h6');
+	subtitle.classList.add('card-subtitle', 'mb-2', 'text-muted');
+	subtitle.textContent = pieces[4];
+	if (Boolean(+pieces[5])) cardBody.appendChild(subtitle);
+	let text = document.createElement('p');
+	text.classList.add('card-text');
+	text.textContent = pieces[6];
+	cardBody.appendChild(text);
+	let go = document.createElement('a');
+	go.href = pieces[0];
+	go.classList.add('btn', 'btn-primary');
+	go.textContent = `Vai `;
+	let goImage = document.createElement('img');
+	goImage.src = "https://files.rubenverg.com/bootstrap/icons/chevron-double-right.svg";
+	go.appendChild(goImage);
+	cardBody.appendChild(go)
+	card.appendChild(cardBody);
+	col.appendChild(card)
+	cardWrapper.appendChild(col);
+}
+
+// console.log(`${Date.now()}|${cardWrapper.outerHTML}`)
+
+const result = head + nav + tail.split(/~~~~~/)[0] + carousel.outerHTML + cardWrapper.outerHTML + tail.split(/~~~~~/)[1];
 
 fs.writeFileSync('index.html', result);
 console.log(`${Date.now()}|Home done\n\n\n`);

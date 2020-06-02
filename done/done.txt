@@ -1,18 +1,19 @@
-MATERIA     |ICONA    |COLORE  |NOTE (o nulla)                                       |PERCENTUALE  |PESO |MATERIA AGAIN |
-scienze     |plus     |success |                                                     |100%         |2    |scienze       |
-storia      |plus     |success |da attaccare a geo, la dobbiamo fare adesso a scuola |100%         |2    |storia        |
-geografia   |plus     |success |forse da allungare ancora un po'?                    |100%         |2    |geografia     |
-inglese     |plus     |success |                                                     |100%         |2    |inglese       |
-matematica  |dash     |warning |ho letto qualcosa                                    |20%          |1    |matematica    |
-letteratura |slash    |warning |ho scritto la trama...                               |25%          |1    |letteratura   |
-musica      |plus     |success |                                                     |100%         |2    |musica        |
-tecnologia  |plus     |success |                                                     |100%         |2    |tecnologia    |
-arte        |plus     |success |                                                     |100%         |2    |arte          |
-spagnolo    |plus     |success |                                                     |100%         |2    |spagnolo      |
-divisore    |dash     |dark    |————————————————————— (pesa 0, tranquilli)           |10000000000% |0    |------------- |
-stile       |check    |success |usa bootstrap, non é che c'é tanto da fare           |99%          |0.25 |stile         |
-icone       |dash     |warning |<strong>AAAAAAAAAAAAAAAAAAA VENTI MEGAAAAA</strong>  |50%          |0.25 |icone         |
-home        |slash    |success |mancano le cards, ma ci vuole un attimo (spero)      |90%          |0.75 |home          |
-fonti       |slash    |success |la percentuale 100 significa 100% *delle cose fatte* |100%         |1    |fonti         |
-intro       |slash    |success |boh                                                  |95%          |0.75 |intro         |
-conclusione |question |warning |?                                                    |25%          |0.25 |conclusione   |
+MATERIA       |ICONA |COLORE  |NOTE (o nulla)                                       |PERCENTUALE  |PESO |MATERIA AGAIN |
+scienze       |plus  |success |                                                     |100%         |1    |scienze       |
+storia        |plus  |success |                                                     |100%         |1    |storia        |
+geografia     |plus  |success |forse da allungare ancora un po'?                    |100%         |1    |geografia     |
+inglese       |plus  |success |                                                     |100%         |1    |inglese       |
+matematica    |check |success |                                                     |100%         |1    |matematica    |
+letteratura   |plus  |success |                                                     |100%         |1    |letteratura   |
+musica        |plus  |success |                                                     |100%         |1    |musica        |
+tecnologia    |plus  |success |                                                     |100%         |1    |tecnologia    |
+arte          |plus  |success |                                                     |100%         |1    |arte          |
+spagnolo      |plus  |success |                                                     |100%         |1    |spagnolo      |
+divisore      |dash  |dark    |————————————————————— (pesa 0, tranquilli)           |10000000000% |0    |------------- |
+stile         |check |success |usa bootstrap, non é che c'é tanto da fare           |100%         |0.25 |stile         |
+icone         |dash  |warning |<strong>AAAAAAAAAAAAAAAAAAA VENTI MEGAAAAA</strong>  |50%          |0.25 |icone         |
+home          |slash |success |mancano le cards, ma ci vuole un attimo (spero)      |95%          |0.75 |home          |
+fonti         |slash |success |la percentuale 100 significa 100% *delle cose fatte* |100%         |1    |fonti         |
+intro         |plus  |success |                                                     |100%         |0.75 |intro         |
+cose tecniche |check |success |                                                     |100%         |0.25 |conclusione   |
+tastoni       |x     |danger  |facile spero                                         |0%           |0.1  |tastoni       |
