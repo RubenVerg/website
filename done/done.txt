@@ -10,8 +10,8 @@ tecnologia    |plus  |success |                                                 
 arte          |plus  |success |                                                     |100%         |2    |arte          |
 spagnolo      |plus  |success |                                                     |100%         |2    |spagnolo      |
 divisore      |dash  |dark    |————————————————————— (pesa 0, tranquilli)           |10000000000% |0    |------------- |
-stile         |check |success |usa bootstrap, non é che c'é tanto da fare           |100%         |0.25 |stile         |
-icone         |dash  |warning |<strong>AAAAAAAAAAAAAAAAAAA VENTI MEGAAAAA</strong>  |50%          |0.25 |icone         |
+stile         |plus  |success |usa bootstrap, non é che c'é tanto da fare           |100%         |0.25 |stile         |
+icone         |plus  |success |<strong>AAAAAAAAAAAAAAAAAAA VENTI MEGAAAAA</strong>  |100%         |0.25 |icone         |
 home          |plus  |success |                                                     |100%         |0.75 |home          |
 fonti         |plus  |success |la percentuale 100 significa 100% *delle cose fatte* |100%         |1    |fonti         |
 intro         |plus  |success |                                                     |100%         |0.75 |intro         |
