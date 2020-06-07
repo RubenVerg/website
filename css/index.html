@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		A Gamemaker's Guide to Style - Idle Game Maker
+	</title>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'>
+	<meta name="description" content="A Gamemaker's Guide to Style: all you need to develop CSS in your game.">
+	<meta property='og:title' content="A Gamemaker's Guide to Style">
+	<meta property='og:type' content=website>
+	<meta property='og:description' content="All you need to develop CSS in your game.">
+	<meta property='og:url' content='https://igm.rubenverg.com/css/'>
+	<!-- <meta property='og:image' content='/media/logo.png'> -->
+	<!-- <meta property='og:image:alt' content='Logo'> -->
+</head>
+
+<body class='m-5'>
+	<h1>
+		A Gamemaker's Guide to Style
+	</h1>
+	<h2 class="text-muted">
+		All you need to develop CSS in your game.
+	</h2>
+	<p class="lead">
+		A simple introduction to CSS for all of you Gamemakers trying to get your game looking <strong>exactly</strong> like
+		you are imagining.
+	</p>
+	<h3>
+		The Basics: Preparation and Assumptions
+	</h3>
+	<p>
+		This guide assumes you are on desktop (I only own a Windows machine, you can contact me on <a
+			href="https://github.com/RubenVerg">GitHub</a> for info on other OS's).
+	</p>
+	<p>
+		I also assume you have read <a href="http://orteil.dashnet.org/igm/help.html#cSS">Orteil's guide on CSS</a>, while
+		you don't need to read the 'Read more about CSS' link, which sends to a website whose purpose is out of IGM and can
+		only help if you know things like HTML.
+	</p>
+	<p>
+		If you don't have a preferred text editor, or if yours doesn't support CSS (and SASS, later) syntax highliting, I
+		suggest installing <a href="https://code.visualstudio.com">Visual Studio Code</a>.
+	</p>
+	<p>
+		If you already know some HTML, you can skip parts in <span class="text">gray</span>.
+	</p>
+	<h3 data-igm-step>Selectors</h3>
+	<p>
+		Create a new file (in VSCode, File > New File) anc all it (or save it as) <code>style.css</code>
+	</p>
+	<p>
+		When styling stuff, you can refer to <var>elements</var>, <var>classes</var>, <var>IDs</var>,
+		<var>pseudoclasses</var> and <var>pseudoelements</var>.
+	</p>
+	<p>
+		In order:
+	</p>
+	<ul>
+		<li>
+			Elements are thinks like 'all links' or 'all images', or all <code>&lt;p></code>s
+		</li>
+		<li>
+			Classes are thinks that can identify multiple elements whihc share a property, like 'all boxes' when styling IGM.
+		</li>
+		<li>
+			Ids are identifiers given to a single item in the document, like 'the building box'
+		</li>
+		<li>
+			Pseudoclasses and pseudoelements are advanced topics and I'll discuss them later
+		</li>
+	</ul>
+	<p>
+		Elements aren't really needed in IGM, where the most important selectors are classes and IDs.
+	</p>
+	<p>
+		When referring to a class, you prefix the name of said class with <code>.</code>, so for example
+	</p>
+	<pre class="css-high mb-0">
+.foo {
+  
+}
+	</pre>
+	<p>
+		refers to class 'foo'. For IDs, you prefix with <code>#</code>.
+	</p>
+	<pre class='css-high mb-0'>
+#foo {
+  
+}
+	</pre>
+	<p>
+		You can also combine selectors, so if I want to target an element with id <code>foo</code> <strong>only</strong> if
+		it has the class <code>bar</code> (because you toggle it with a setting), you can write
+	</p>
+	<pre class='css-high mb-0'>
+#foo.bar {
+  
+}
+	</pre>
+	<p>
+		which is different from
+	</p>
+	<pre class="css-high mb-0">
+#foo .bar {
+  
+}
+	</pre>
+	<p>
+		which means 'all elements with class <code>bar</code> which are children of the element with ID <code>foo</code>'.
+	</p>
+	<p>
+		In short, when there is no space you are requesting an element (or more than one) with multiple properties, while
+		when there are spaces you are checking for parents. For example,
+	</p>
+	<pre class="css-high mb-0">
+#foo.bar .baz {
+  
+}
+	</pre>
+	<p>
+		targets all elements with class <code>baz</code> <strong>if</strong> they are children of elements with ID
+		<code>foo</code> <strong>and</strong> class <code>bar</code>.
+	</p>
+	<h3 data-igm-step>Properties</h3>
+	<p>
+		Once you are inside the <code>{</code>curly braces<code>}</code> of a selector, you want to write some properties
+		that define the style of the element you are targeting.
+	</p>
+	<p>
+		There are a lot of different properties and explaining them all is not my job.
+	</p>
+	<p>
+		Starting from this step, we are going to use a demo HTML file to test our CSS before switching to a game.
+	</p>
+	<p>
+		Create a new file in the same folder as <code>style.css</code> and name it <code>index.html</code>. Inside, write
+		this code:
+	</p>
+	<pre class="html-high mb-0">
+&lt;!DOCTYPE html> &lt;!-- This line indicates that our file is HTML -->
+&lt;html> &lt;!-- This is the root of our document -->
+
+&lt;head> &lt;!-- In the head we define things we (mostly) cannot see -->
+  &lt;meta charset="utf-8"> &lt;!-- This means we are using the UTF-8 charset -->
+  &lt;link rel="stylesheet" href="style.css" /> &lt;!-- This includes our CSS file -->
+&lt;/head>
+
+&lt;body> &lt;!-- Here are the things we can see -->
+
+&lt;/body>
+
+&lt;/html>
+	</pre>
+	<p class="text-muted">
+		<code>&lt;!--</code> and <code>--></code> indicate comments.
+	</p>
+	<p>
+		We are only going to edit the <code>&lt;body></code>. Open this file in your favorite browser.
+	</p>
+	<p>
+		You should see an empty page.
+	</p>
+	<h4>Editing fonts</h4>
+	<p>
+		One of the first things you might like to do is change the font. If we add something (like <code>Hello!</code>) in
+		our body, we can see it on the browser with the default font (probably a serif font, but some browsers allow
+		changing it via settings). That sucks!
+	</p>
+	<div class='border border-primary'>
+		<span style="font-family: 'Times New Roman', serif">Hello!</span>
+	</div>
+	<p>
+		To change the font, we can go in our CSS and write:
+	</p>
+	<pre class="css-high mb-0">
+body {
+  font-family: /* Whatever font you like */ 'Arial';
+}
+	</pre>
+	<p>
+		We are introducing a few things here:
+	</p>
+	<ul>
+		<li>
+			Properties
+		</li>
+		<li>
+			Values
+		</li>
+		<li>
+			Syntax
+		</li>
+	</ul>
+	<p>
+		Properties are like <code>font-family</code>. They are (mostly) fixed strings, and depending on the string different
+		styles are impacted.
+	</p>
+	<p>
+		Values can be numbers, colors, strings... In this simple case we are using a string, indicating we want Arial as the
+		font.
+	</p>
+	<p>
+		Properties and values are separated by colons, and each property-value pair is separated by a semicolon.
+	</p>
+	<p>
+		<code>/*</code> and <code>*/</code> delimit comments.
+	</p>
+	<div class='border border-primary'>
+		<span style='font-family: "Arial", sans-serif'>Hello!</span>
+	</div>
+	<h4>Other font and text properties</h4>
+	<p>
+		We can edit colors, weight, decorations and much more.
+	</p>
+	<p>
+		Let's edit the body of our HTML test file
+	</p>
+	<pre class="html-high mb-0">
+&lt;div class="italic"> &lt;!-- This is a container for elements -->
+  Hello!
+&lt;/div>
+&lt;div class="bold">
+  Hi!
+&lt;/div>
+&lt;div class="red">
+  Hullo!
+&lt;/div>
+&lt;div class="limeish">
+  I'm out of greetings!
+&lt;/div>
+	</pre>
+	<p>
+		In our CSS, we can write some (utility) classes.
+	</p>
+	<pre class="css-high mb-0">
+.italic {
+  font-style: italic; /* Italic is a <em>keyword</em> */
+}
+.bold {
+  font-weight: 700; /* A <em>number</em> */
+}
+.red {
+  color: red; /* A <em>color keyword</em> */
+}
+.limeish {
+  color: #00e347 /* A <em>color</em> */
+}
+	</pre>
+	<div class="border border-primary">
+		<div style="font-style: italic;">
+			Hello!
+		</div>
+		<div style="font-weight: 700;">
+			Hi!
+		</div>
+		<div style="color: red;">
+			Hullo!
+		</div>
+		<div style="color: #00e347;">
+			I'm out of greetings!
+		</div>
+	</div>
+	<p>
+		Things can get <em>way</em> more complicated than this, but enough HTML! Let's switch to a game.
+	</p>
+</body>
+
+<script src="/numerals.js">
+	/* Numerals */
+</script>
+<script src="https://assembly-line.js.org/color.js">
+	/* Color */
+</script>
+<script src='https://code.jquery.com/jquery-3.4.1.slim.min.js'>
+	/* JQuery */
+</script>
+<script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'>
+	/* PopperJS */
+</script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js'>
+	/* Bootstrap */
+</script>
+
+</html>
