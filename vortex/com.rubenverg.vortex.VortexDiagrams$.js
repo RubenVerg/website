@@ -23,6 +23,7 @@ function $c_Lcom_rubenverg_vortex_VortexDiagrams$() {
   this.Lcom_rubenverg_vortex_VortexDiagrams$__f_moduloInput = null;
   this.Lcom_rubenverg_vortex_VortexDiagrams$__f_arrowsInput = null;
   this.Lcom_rubenverg_vortex_VortexDiagrams$__f_algorithmInput = null;
+  this.Lcom_rubenverg_vortex_VortexDiagrams$__f_downloadButton = null;
   this.Lcom_rubenverg_vortex_VortexDiagrams$__f_versionInfo$lzy1 = null;
   this.Lcom_rubenverg_vortex_VortexDiagrams$__f_versionInfobitmap$1 = false;
   $n_Lcom_rubenverg_vortex_VortexDiagrams$ = this;
@@ -50,7 +51,8 @@ function $c_Lcom_rubenverg_vortex_VortexDiagrams$() {
   this.Lcom_rubenverg_vortex_VortexDiagrams$__f_multiplierInput = window.document.querySelector("#multiplier");
   this.Lcom_rubenverg_vortex_VortexDiagrams$__f_moduloInput = window.document.querySelector("#modulo");
   this.Lcom_rubenverg_vortex_VortexDiagrams$__f_arrowsInput = window.document.querySelector("#arrows");
-  this.Lcom_rubenverg_vortex_VortexDiagrams$__f_algorithmInput = window.document.querySelector("#algorithm")
+  this.Lcom_rubenverg_vortex_VortexDiagrams$__f_algorithmInput = window.document.querySelector("#algorithm");
+  this.Lcom_rubenverg_vortex_VortexDiagrams$__f_downloadButton = window.document.querySelector("#download-button")
 }
 export { $c_Lcom_rubenverg_vortex_VortexDiagrams$ as $c_Lcom_rubenverg_vortex_VortexDiagrams$ };
 $c_Lcom_rubenverg_vortex_VortexDiagrams$.prototype = new $j_java$002elang$002eObject.$h_O();
@@ -112,7 +114,7 @@ $c_Lcom_rubenverg_vortex_VortexDiagrams$.prototype.versionInfo__T = (function() 
     var hi = t.RTLong__f_hi;
     var $$x2 = new $$x3($j_java$002elang$002eObject.$m_RTLong$().org$scalajs$linker$runtime$RuntimeLong$$toDouble__I__I__D(lo, hi));
     var $$x1 = $$x4.format($$x2);
-    var x = (("Vortex Diagrams version 1.0.0\r\n       |Compiled on Scala.JS 1.8.0 for Scala 3.1.1 with SBT 1.6.2\r\n       |Production build\r\n       |Built " + $$x1) + "\r\n       |");
+    var x = (("Vortex Diagrams version 1.1.0\r\n       |Compiled on Scala.JS 1.8.0 for Scala 3.1.1 with SBT 1.6.2\r\n       |Production build\r\n       |Built " + $$x1) + "\r\n       |");
     this.Lcom_rubenverg_vortex_VortexDiagrams$__f_versionInfo$lzy1 = $j_scala$002ecollection$002eStringOps$0024.$m_sc_StringOps$().stripMargin$extension__T__C__T(x, 124);
     this.Lcom_rubenverg_vortex_VortexDiagrams$__f_versionInfobitmap$1 = true
   };
@@ -205,7 +207,11 @@ $c_Lcom_rubenverg_vortex_VortexDiagrams$.prototype.draw__V = (function() {
         };
         throw new $j_java$002elang$002eObject.$c_s_MatchError(x$1$3)
       }
-    }))(this)))
+    }))(this)));
+    this.Lcom_rubenverg_vortex_VortexDiagrams$__f_downloadButton.setAttribute("download", ((((((("Vortex Diagram (modulo = " + this.modulo__I()) + ", multiplier = ") + this.multiplier__I()) + ", ") + (this.arrows__Z() ? "arrows, " : "")) + this.Lcom_rubenverg_vortex_VortexDiagrams$__f_algorithmInput.value) + ").png"));
+    var $$x4 = this.Lcom_rubenverg_vortex_VortexDiagrams$__f_downloadButton;
+    var this$6 = this.Lcom_rubenverg_vortex_VortexDiagrams$__f_canvas.toDataURL("image/png");
+    $$x4.href = this$6.split("image/png").join("image/octet-stream")
   }
 });
 $c_Lcom_rubenverg_vortex_VortexDiagrams$.prototype.main__AT__V = (function(args) {
