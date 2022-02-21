@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "scala.runtime.AbstractFunction4.js",
+"mappings": ";;AAgBe,mB;AAAA,SAAA,uBAAA;;C;AAAA,SAAA,uBAAA,6B;AAAA,uBAAA,CAAA,SAAA,OAAAA,2BAAA,CAAA,IAAA,E;AAAA,uBAAA,CAAA,SAAA,CAAA,WAAA,GAAA,uB;AAAA,mB;AAAA,SAAA,uBAAA;;C;AAAA,SAAA,uBAAA,6B;AAAA,uBAAA,CAAA,SAAA,GAAA,uBAAA,CAAA,S;AAAA,uBAAA,CAAA,SAAA,CAAAC,WAAA;ECyBqB,oBDzBrB;E;",
+"sources": ["https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/runtime/AbstractFunction4.scala", "https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/Function4.scala"],
+"names": ["java.lang.Object", "toString"],
+"lineCount": 18
+}

@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "com.rubenverg.vortex.VortexDiagrams.js",
+"mappings": ";;;AAaM,SAAAA,oDAAA,CAAA,IAAA;EAAAC,uDAAA,CAAA,wCAAA,GAAA,WAAA,CAAA,IAAA;C;AAAA,SAAAD,oDAAA,0D;",
+"sources": ["file:///F:/dev/vortex-diagrams/src/main/scala/VortexDiagrams.scala"],
+"names": ["main", "com.rubenverg.vortex.VortexDiagrams$"],
+"lineCount": 7
+}

@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.lang.Enum.js",
+"mappings": ";;AAeY,SAAAA,mBAAA,CAAAC,KAAA,EADiC,KACjC,EADgD,QAChD;EAAAA,KADiC,CAAA,gBAAA,GAAA,KACjC;EAAAA,KADgD,CAAA,mBAAA,GAAA,QAChD;EADiC,OACjCA,KAAA;C;AAAA,SAAAD,mBAAA,yB;AADG,mB;AAAA,SAAA,UAAA;EAA8B,KAAAE,gBAAA,OAA9B;EAA6C,KAAAC,mBAAA,IAA7C;C;AAAA,SAAA,UAAA,gB;AAAA,UAAA,CAAA,SAAA,OAAAC,2BAAA,CAAA,IAAA,E;AAAA,UAAA,CAAA,SAAA,CAAA,WAAA,GAAA,U;AAAA,mB;AAAA,SAAA,UAAA;;C;AAAA,SAAA,UAAA,gB;AAAA,UAAA,CAAA,SAAA,GAAA,UAAA,CAAA,S;AAAA,UAAA,CAAA,SAAA,CAOAC,WAPA;EAOqB,YAAA,gBAPrB;E;AAAA,UAAA,CAAA,SAAA,CAUMC,YAVN,aAUa,IAVb;;E;AAAA,UAAA,CAAA,SAAA,CAaMC,WAbN;EC2K2B,OAAAH,2BAAA,CAAA,uBAAA,CAAC,IAAD,CD3K3B;E;",
+"sources": ["https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalanglib/src/main/scala/java/lang/Enum.scala", "https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalanglib/src/main/scala/java/lang/System.scala"],
+"names": ["<init>", "this", "_name", "_ordinal", "java.lang.Object", "toString", "equals", "hashCode"],
+"lineCount": 31
+}

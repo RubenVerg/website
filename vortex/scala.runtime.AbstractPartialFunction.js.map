@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "scala.runtime.AbstractPartialFunction.js",
+"mappings": ";;;AA0Be,mB;AAAA,SAAA,6BAAA;;C;AAAA,SAAA,6BAAA,mC;AAAA,6BAAA,CAAA,SAAA,OAAAA,2BAAA,CAAA,IAAA,E;AAAA,6BAAA,CAAA,SAAA,CAAA,WAAA,GAAA,6B;AAAA,mB;AAAA,SAAA,6BAAA;;C;AAAA,SAAA,6BAAA,mC;AAAA,6BAAA,CAAA,SAAA,GAAA,6BAAA,CAAA,S;AAAA,6BAAA,CAAA,SAAA,CAAAC,WAAA;EC4DqB,oBD5DrB;E;AAAA,6BAAA,CAAA,SAAA,CAQCC,WARD,aAQO,CARP;EAQkD,IAAAC,SAAA,GAAhBC,iCAAA,CAAA,qBAAA,EAAgB,CE+TrB,8BFvU7B;EGudC,YAAA,sBAAA,CAAA,CAAA,EAAA,SAAA,CHvdD;E;",
+"sources": ["https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/runtime/AbstractPartialFunction.scala", "https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/Function1.scala", "https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/PartialFunction.scala", "file:///home/runner/work/scala-java-locales/scala-java-locales/core/shared/src/main/scala-3.x/java/util/Locale.scala"],
+"names": ["java.lang.Object", "toString", "apply", "default", "scala.PartialFunction$"],
+"lineCount": 23
+}

@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.util.HashMap$NodeIterator.js",
+"mappings": ";;;AAkgBsB,mB;AAAA,SAAA,0BAAA,CAAaA,KAAb;EAaA,KAAAC,yCAAA,IAbA;EAcA,KAAAC,6CAAA,IAdA;EAeA,KAAAC,8CAAA,OAfA;EAgBA,KAAAC,8CAAA,OAhBA;EAYG,KAAAJ,4CAAA,OAZH;EAAqBK,wDAAA,CAAA,oDAAA,OAAA,KAAA,CAArB;C;AAAA,SAAA,0BAAA,gC;AAAA,0BAAA,CAAA,SAAA,OAAAA,wDAAA,CAAA,qCAAA,E;AAAA,0BAAA,CAAA,SAAA,CAAA,WAAA,GAAA,0B;AAAA,mB;AAAA,SAAA,0BAAA;;C;AAAA,SAAA,0BAAA,gC;AAAA,0BAAA,CAAA,SAAA,GAAA,0BAAA,CAAA,S;AAAA,IAAA,0BAAA,OAAAC,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,uBAAA;;EAAA,uBAAA;EAAA,kCAAA;EAAA,CAAA;EAAA,WAAA;E;AAAA,SAAA,0BAAA,gC;AAAA,0BAAA,CAAA,SAAA,CAAA,UAAA,GAAA,0B;",
+"sources": ["https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalib/src/main/scala/java/util/HashMap.scala"],
+"names": ["$outer", "len", "nextIdx", "nextNode", "lastNode", "java.util.HashMap$AbstractHashMapIterator", "java.lang.Object"],
+"lineCount": 31
+}

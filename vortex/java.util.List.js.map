@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.util.List.js",
+"mappings": ";;AAkBM,SAAA,WAAA,CAAA,GAAA;eAAA,GAAA,IAAA,GAAA,CAAA,UAAA,KAAA,GAAA,CAAA,UAAA,CAAA,SAAA,CAAA,OAAA;C;AAAA,SAAA,WAAA,iB;AAAA,SAAA,kBAAA,CAAA,GAAA,EAAA,KAAA;gBAAA,GAAA,IAAA,GAAA,CAAA,UAAA,MAAA,GAAA,CAAA,UAAA,CAAA,UAAA,KAAA,KAAA,MAAA,GAAA,CAAA,UAAA,CAAA,SAAA,CAAA,SAAA,CAAA,OAAA;C;AAAA,SAAA,kBAAA,wB;",
+"sources": ["https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalib/src/main/scala/java/util/List.scala"],
+"names": [],
+"lineCount": 10
+}

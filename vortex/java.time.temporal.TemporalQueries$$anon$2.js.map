@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.time.temporal.TemporalQueries$$anon$2.js",
+"mappings": ";;;AAoHkD,mB;AAAA,SAAA,8CAAA;;C;AAAA,SAAA,8CAAA,oD;AAAA,8CAAA,CAAA,SAAA,OAAAA,2BAAA,CAAA,IAAA,E;AAAA,8CAAA,CAAA,SAAA,CAAA,WAAA,GAAA,8C;AAAA,mB;AAAA,SAAA,8CAAA;;C;AAAA,SAAA,8CAAA,oD;AAAA,8CAAA,CAAA,SAAA,GAAA,8CAAA,CAAA,S;AAAA,8CAAA,CAAA,SAAA,CAC3CC,kDAD2C,aAC3C,QAD2C;EACuB,OAAd,QAAc,CAAA,2CAAA,CAAC,IAAD,CADvB;E;AAAA,IAAA,8CAAA,OAAAD,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,2CAAA;;EAAA,2CAAA;EAAA,CAAA;EAAA,iCAAA;E;AAAA,SAAA,8CAAA,oD;AAAA,8CAAA,CAAA,SAAA,CAAA,UAAA,GAAA,8C;",
+"sources": ["file:///home/runner/work/scala-java-time/scala-java-time/core/js/target/scala-3.1.0/src_managed/main/org/threeten/bp/temporal/TemporalQueries.scala"],
+"names": ["java.lang.Object", "queryFrom"],
+"lineCount": 28
+}

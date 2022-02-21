@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "scala.collection.convert.JavaCollectionWrappers$IteratorWrapper.js",
+"mappings": ";;AA0Ba,SAAA,4DAAA,CAAA,GAAA,EAAA,KAAA;gBAAA,GAAA,IAAA,GAAA,CAAA,UAAA,MAAA,GAAA,CAAA,UAAA,CAAA,UAAA,KAAA,KAAA,MAAA,GAAA,CAAA,UAAA,CAAA,SAAA,CAAA,SAAA,CAAA,iDAAA;C;AAAA,SAAA,4DAAA,kE;",
+"sources": ["https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/collection/convert/JavaCollectionWrappers.scala"],
+"names": [],
+"lineCount": 6
+}

@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "scala.scalajs.runtime.AnonFunction4.js",
+"mappings": ";;;AAwCY,mB;AAAA,SAAA,qBAAA,CAAsC,CAAtC;EAAsC,KAAAA,uBAAA,OAAtC;EAAsC,KAAA,uBAAA,GAAA,CAAtC;C;AAAA,SAAA,qBAAA,2B;AAAA,qBAAA,CAAA,SAAA,OAAAC,0CAAA,CAAA,uBAAA,E;AAAA,qBAAA,CAAA,SAAA,CAAA,WAAA,GAAA,qB;AAAA,mB;AAAA,SAAA,qBAAA;;C;AAAA,SAAA,qBAAA,2B;AAAA,qBAAA,CAAA,SAAA,GAAA,qBAAA,CAAA,S;AAAA,qBAAA,CAAA,SAAA,CACGC,oBADH,aACS,IADT,EACmB,IADnB,EAC6B,IAD7B,EACuC,IADvC;EACuD,WAAD,KAAA,uBAAC,EAAC,IAAD,EAAO,IAAP,EAAa,IAAb,EAAmB,IAAnB,CADvD;E;AAAA,IAAA,qBAAA,OAAAC,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,kBAAA;;EAAA,kBAAA;EAAA,oBAAA;EAAA,CAAA;EAAA,EAAA;E;AAAA,SAAA,qBAAA,2B;AAAA,qBAAA,CAAA,SAAA,CAAA,UAAA,GAAA,qB;",
+"sources": ["https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/library/src/main/scala/scala/scalajs/runtime/AnonFunctions.scala"],
+"names": ["f", "scala.runtime.AbstractFunction4", "apply", "java.lang.Object"],
+"lineCount": 30
+}

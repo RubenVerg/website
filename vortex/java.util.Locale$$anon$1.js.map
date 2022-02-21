@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.util.Locale$$anon$1.js",
+"mappings": ";;;AAifgB,mB;AAAA,SAAA,oBAAA;;C;AAAA,SAAA,oBAAA,0B;AAAA,oBAAA,CAAA,SAAA,OAAAA,gDAAA,CAAA,6BAAA,E;AAAA,oBAAA,CAAA,SAAA,CAAA,WAAA,GAAA,oB;AAAA,mB;AAAA,SAAA,oBAAA;;C;AAAA,SAAA,oBAAA,0B;AAAA,oBAAA,CAAA,SAAA,GAAA,oBAAA,CAAA,S;AAAA,oBAAA,CAAA,SAAA,CAAAC,kBAAA,aAAA,CAAA;EACF,KAAA,CAAA;IAAU,IAAA,EAAA,GAAA,CAAA,CC3dwI,QD2dlJ;IAAU,IEtOwB,CAAd,EAAc,KAAI,EAAJ,CFsOxB;MAAS,WAAT;KAAV;IAAmB,WAAnB;GADE;EAE6B,YAF7B;E;AAAA,oBAAA,CAAA,SAAA,CAAAC,sBAAA,aAAA,CAAA,EAAAC,SAAA;EACF,KAAA,CAAA;IAAU,IAAA,GAAA,GAAA,CAAA,CC3dgI,QD2d1I;IAAU,IAAA,GAAA,GAAA,CAAA,CC3dwI,QD2dlJ;IAAU,IEtOwB,CAAd,GAAc,KAAI,EAAJ,CFsOxB;MAAa,OAAA,GAAb;KAAV;IAC6B,QAAF,CAAD,GAAC,OAAE,GAAA,GAAA,CAD7B;GADE;EAE6B,OAAA,SAAA,CAAA,WAAA,CAAA,CAAA,CAF7B;E;AAAA,oBAAA,CAAA,SAAA,CAAAF,iBAAA,aAAA,CAAA;cAAA,kBAAA,CAAA,CAAA;E;AAAA,oBAAA,CAAA,SAAA,CAAAC,qBAAA,aAAA,CAAA,EAAAC,SAAA;cAAA,sBAAA,CAAA,CAAA,EAAA,SAAA;E;AAAA,IAAA,oBAAA,OAAAC,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,iBAAA;;EAAA,iBAAA;EAAA,0BAAA;EAAA,CAAA;EAAA,EAAA;EAAA,iBAAA;EAAA,qBAAA;E;AAAA,SAAA,oBAAA,0B;AAAA,oBAAA,CAAA,SAAA,CAAA,UAAA,GAAA,oB;",
+"sources": ["file:///home/runner/work/scala-java-locales/scala-java-locales/core/shared/src/main/scala-3.x/java/util/Locale.scala", "https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/Tuple2.scala", "https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalanglib/src/main/scala/java/lang/_String.scala"],
+"names": ["scala.runtime.AbstractPartialFunction", "isDefinedAt", "applyOrElse", "default", "java.lang.Object"],
+"lineCount": 55
+}

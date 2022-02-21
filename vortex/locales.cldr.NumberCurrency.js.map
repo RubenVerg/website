@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "locales.cldr.NumberCurrency.js",
+"mappings": ";;AAKgB,SAAA,uCAAA,CAAA,GAAA,EAAA,KAAA;gBAAA,GAAA,IAAA,GAAA,CAAA,UAAA,MAAA,GAAA,CAAA,UAAA,CAAA,UAAA,KAAA,KAAA,MAAA,GAAA,CAAA,UAAA,CAAA,SAAA,CAAA,SAAA,CAAA,4BAAA;C;AAAA,SAAA,uCAAA,6C;",
+"sources": ["file:///home/runner/work/sbt-locales/sbt-locales/api/src/main/scala/locales/cldr/currency.scala"],
+"names": [],
+"lineCount": 6
+}

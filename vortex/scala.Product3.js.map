@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "scala.Product3.js",
+"mappings": ";;AAuC6C,SAAAA,mCAAA,CAAAC,KAAA,EAAf,CAAe;UAAA,CAAA;SACpC,CADoC;MAC/B,OAD+BA,KAC/B,CChByB,QDeM;;;SAEpC,CAFoC;MAE/B,OAF+BA,KAE/B,CCjBiC,QDeF;;;SAGpC,CAHoC;MAG/B,OAH+BA,KAG/B,CClByC,QDeV;;;;MAIzB,MAAAC,2BAAA,CAAA,qCAAA,KAAAA,2BAAA,CAAA,+BAAA,IAAkC,CAAD,CAAC,sCAAlC,CAJyB;;;C;AAAA,SAAAF,mCAAA,yC;",
+"sources": ["https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/Product3.scala", "https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/Tuple3.scala"],
+"names": ["productElement", "this", "java.lang.Object"],
+"lineCount": 22
+}

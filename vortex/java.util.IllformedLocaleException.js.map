@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.util.IllformedLocaleException.js",
+"mappings": ";;AAyFU,SAAAA,uCAAA,CAAAC,KAAA,EADqB,CACrB,EADgC,UAChC;EAAAA,KADgC,CAAA,yCAAA,GAAA,UAChC;EAAmB,IAAAC,GAAA,IAAF,CAAE,GAAG,CAAe,CAAX,UAAW,GAAE,CAAF,CAAf,GAAoB,EAApB,GAAuD,CAAb,CAAd,aAAc,GAAE,UAAF,CAAa,GAAE,GAAF,CAAvD,CAAH,CAAnB;ECkSEC,2BAAA,CAAA,yCAAA,CDlSFF,KCkSE,EAAU,GAAV,EAgFoB,IAhFpB,EA8EyD,IA9EzD,EA8E+D,IA9E/D,CDlSF;EADgC,OAChCA,KAAA;C;AAAA,SAAAD,uCAAA,6C;AAEJ,SAAAA,oCAAA,CAAAC,KAAA,EAAK,CAAL;EAAkB,uCAAA,CAAlBA,KAAkB,EAAK,CAAL,EAAQ,IAAR,CAAlB;EAAkB,OAAlBA,KAAA;C;AAAA,SAAAD,oCAAA,0C;AAHA,MAAA,8BAAA,SAAAG,2BAAA,CAAA,sBAAA;EAAA,WAAA;;IAAoC,KAAAC,yCAAA,IAApC;;C;AAAA,SAAA,8BAAA,oC;AAAA,IAAA,8BAAA,OAAAD,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,2BAAA;;EAAA,2BAAA;EAAA,mBAAA;EAAA,YAAA;EAAA,YAAA;EAAA,CAAA;EAAA,qBAAA;E;AAAA,SAAA,8BAAA,oC;AAAA,8BAAA,CAAA,SAAA,CAAA,UAAA,GAAA,8B;",
+"sources": ["https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalib/src/main/scala/java/util/Throwables.scala", "https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalanglib/src/main/scala/java/lang/Throwables.scala"],
+"names": ["<init>", "this", "s", "java.lang.Object", "errorIndex"],
+"lineCount": 33
+}

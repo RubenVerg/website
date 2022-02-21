@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.lang.AssertionError.js",
+"mappings": ";;;AA2NM,MAAA,oBAAA,SAAAA,0BAAA,CAAA,WAAA;EAAA,WAAA,CAKK,aALL;;ICwyBC,IAAA,OAAA,IAAH,EAAG,GAAE,aAAF,CDxyBD;IASS,KAAA,aAAA,YAAAC,2BAAA,CAAA,eAAA;UAAA,EAAA,GAAA,aAAA;MAAoB,IAApB,KAAoB,GAAA,EAApB;;MACoB,IADpB,KACoB,OADpB;KATT;IAuCMA,2BAAA,CAAA,yCAAA,OAAU,OAAV,EAAa,KAAb,EACyD,IADzD,EAC+D,IAD/D,CAvCN;;C;AAAA,SAAA,oBAAA,0B;AAAA,IAAA,oBAAA,OAAAA,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,iBAAA;;EAAA,iBAAA;EAAA,QAAA;EAAA,YAAA;EAAA,CAAA;EAAA,qBAAA;E;AAAA,SAAA,oBAAA,0B;AAAA,oBAAA,CAAA,SAAA,CAAA,UAAA,GAAA,oB;",
+"sources": ["https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalanglib/src/main/scala/java/lang/Throwables.scala", "https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalanglib/src/main/scala/java/lang/_String.scala"],
+"names": ["java.lang.Error", "java.lang.Object"],
+"lineCount": 28
+}

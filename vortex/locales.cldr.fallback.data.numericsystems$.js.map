@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "locales.cldr.fallback.data.numericsystems$.js",
+"mappings": ";;;AAGM,mB;AAAA,SAAA,8CAAA;EACI,KAAAA,wDAAA,OADJ;;C;AAAA,SAAA,8CAAA,oD;AAAA,8CAAA,CAAA,SAAA,OAAAC,2BAAA,CAAA,IAAA,E;AAAA,8CAAA,CAAA,SAAA,CAAA,WAAA,GAAA,8C;AAAA,mB;AAAA,SAAA,8CAAA;;C;AAAA,SAAA,8CAAA,oD;AAAA,8CAAA,CAAA,SAAA,GAAA,8CAAA,CAAA,S;AAAA,8CAAA,CAAA,SAAA,CAEHC,mCAFG;EAEH;;IAA6B,IAAA,KAAA,qDAAA,+BAAA,KAAAD,2BAAA,CAAA,KAAA,KAAA,WAAA,MAAK,EAAL,EAAU,EAAV,EAAe,EAAf,EAAoB,EAApB,EAAyB,EAAzB,EAA8B,EAA9B,EAAmC,EAAnC,EAAwC,EAAxC,EAA6C,EAA7C,IAA7B;ICsqBwE,IDtqBhD,MCsqBgD,GAAhBA,2BAAA,CAAA,WAAA,EAAgB,CAAA,uCAAA,CAAC,KAAD,CDtqBxE;SAAA,wDAAA,GEDJ,IAAAE,uCAAA,CAAA,gCAAA,CFCoB,MEDpB,EAAA,MAAA,CFCI;IAA+E,KAAA,2DAAA,OAA/E;GAFG;;E;AAAA,IAAA,8CAAA,OAAAF,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,2CAAA;;EAAA,2CAAA;EAAA,CAAA;E;AAAA,SAAA,8CAAA,oD;AAAA,8CAAA,CAAA,SAAA,CAAA,UAAA,GAAA,8C;AAAA,IAAA,8C;AAAA,SAAA,8CAAA;QAAA,8CAAA;IAAA,8CAAA,OAAA,8CAAA;;SAAA,8CAAA;C;AAAA,SAAA,8CAAA,oD;",
+"sources": ["file:///home/runner/work/scala-java-locales/scala-java-locales/core/shared/src/main/scala/locales/cldr/fallback/data/numericsystems.scala", "https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/collection/immutable/List.scala", "file:///home/runner/work/sbt-locales/sbt-locales/api/src/main/scala/locales/cldr/number.scala"],
+"names": ["latn$lzy1", "java.lang.Object", "latn", "locales.cldr.NumberingSystem"],
+"lineCount": 43
+}

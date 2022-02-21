@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "scala.scalajs.reflect.Reflect$.js",
+"mappings": ";;AAqEO,mB;AAAA,SAAA,uBAAA;EACO,KAAAA,6CAAA,OADP;EAIO,KAAAC,6CAAA,OAJP;EA8DN,uBAAA,OA9DM;EACO,KAAA,6CAAA,GCXT,EDUE;EAIO,KAAA,6CAAA,GCdT,EDUE;C;AAAA,SAAA,uBAAA,6B;AAAA,uBAAA,CAAA,SAAA,OAAAC,2BAAA,CAAA,IAAA,E;AAAA,uBAAA,CAAA,SAAA,CAAA,WAAA,GAAA,uB;AAAA,mB;AAAA,SAAA,uBAAA;;C;AAAA,SAAA,uBAAA,6B;AAAA,uBAAA,CAAA,SAAA,GAAA,uBAAA,CAAA,S;AAAA,uBAAA,CAAA,SAAA,CAyCDC,sCAzCC,aAyCyB,IAzCzB;EA0CH,IAAA,IAAA,QAzCU,6CADP;EE1BH,QA6FwB,IAAxBD,2BAAA,CAAA,kCAAA,EAAM,CARF,qDAQoB,CAAA,IAAA,CAAC,IAAD,EAAO,IAAP,GA7FxB,GACM,IAAAA,2BAAA,CAAA,SAAA,CAcN,IAAiD,CAAC,IAAD,CAd3C,CADN,GAGEA,2BAAA,CAAA,UAAA,EAHF,CF0BG;E;AAAA,IAAA,uBAAA,OAAAA,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,oBAAA;;EAAA,oBAAA;EAAA,CAAA;E;AAAA,SAAA,uBAAA,6B;AAAA,uBAAA,CAAA,SAAA,CAAA,UAAA,GAAA,uB;AAAA,IAAA,uB;AAAA,SAAA,uBAAA;QAAA,uBAAA;IAAA,uBAAA,OAAA,uBAAA;;SAAA,uBAAA;C;AAAA,SAAA,uBAAA,6B;",
+"sources": ["https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/library/src/main/scala/scala/scalajs/reflect/Reflect.scala", "https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/library/src/main/scala/scala/scalajs/js/Dictionary.scala", "https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/library/src/main/scala-new-collections/scala/scalajs/js/WrappedDictionary.scala"],
+"names": ["loadableModuleClasses", "instantiatableClasses", "java.lang.Object", "lookupLoadableModuleClass"],
+"lineCount": 39
+}

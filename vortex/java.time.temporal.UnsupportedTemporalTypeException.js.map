@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.time.temporal.UnsupportedTemporalTypeException.js",
+"mappings": ";;;AA8CK,MAAA,uDAAA,SAAAA,sCAAA,CAAA,+BAAA;EAAA,WAAA,CASK,OATL;;IC6UOC,2BAAA,CAAA,yCAAA,OAAU,OAAV,EDpU+B,ICoU/B,EA8EyD,IA9EzD,EA8E+D,IA9E/D,CD7UP;;C;AAAA,SAAA,uDAAA,6D;AAAA,IAAA,uDAAA,OAAAA,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,oDAAA;;EAAA,oDAAA;EAAA,4BAAA;EAAA,mBAAA;EAAA,YAAA;EAAA,YAAA;EAAA,CAAA;EAAA,qBAAA;E;AAAA,SAAA,uDAAA,6D;AAAA,uDAAA,CAAA,SAAA,CAAA,UAAA,GAAA,uD;",
+"sources": ["file:///home/runner/work/scala-java-time/scala-java-time/core/js/target/scala-3.1.0/src_managed/main/org/threeten/bp/temporal/UnsupportedTemporalTypeException.scala", "https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalanglib/src/main/scala/java/lang/Throwables.scala"],
+"names": ["java.time.DateTimeException", "java.lang.Object"],
+"lineCount": 23
+}

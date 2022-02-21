@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "scala.util.control.ControlThrowable.js",
+"mappings": ";;AA0Ce,MAAA,kCAAA,SAAAA,2BAAA,CAAA,eAAA;C;AAAA,SAAA,kCAAA,wC;",
+"sources": ["https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/util/control/ControlThrowable.scala"],
+"names": ["java.lang.Object"],
+"lineCount": 5
+}

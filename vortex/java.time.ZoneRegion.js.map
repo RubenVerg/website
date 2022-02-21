@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.time.ZoneRegion.js",
+"mappings": ";;AAkGW,IAAA,wBAAA,OAAAA,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,qBAAA;;EAAA,qBAAA;EAAA,iBAAA;EAAA,CAAA;EAAA,qBAAA;E;AAAA,SAAA,wBAAA,8B;",
+"sources": ["file:///home/runner/work/scala-java-time/scala-java-time/core/js/target/scala-3.1.0/src_managed/main/org/threeten/bp/ZoneRegion.scala"],
+"names": ["java.lang.Object"],
+"lineCount": 11
+}

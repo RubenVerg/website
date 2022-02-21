@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.util.Collection.js",
+"mappings": ";;AAkBM,SAAA,iBAAA,CAAA,GAAA;eAAA,GAAA,IAAA,GAAA,CAAA,UAAA,KAAA,GAAA,CAAA,UAAA,CAAA,SAAA,CAAA,aAAA;C;AAAA,SAAA,iBAAA,uB;AAAA,SAAA,wBAAA,CAAA,GAAA,EAAA,KAAA;gBAAA,GAAA,IAAA,GAAA,CAAA,UAAA,MAAA,GAAA,CAAA,UAAA,CAAA,UAAA,KAAA,KAAA,MAAA,GAAA,CAAA,UAAA,CAAA,SAAA,CAAA,SAAA,CAAA,aAAA;C;AAAA,SAAA,wBAAA,8B;",
+"sources": ["https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalib/src/main/scala/java/util/Collection.scala"],
+"names": [],
+"lineCount": 10
+}

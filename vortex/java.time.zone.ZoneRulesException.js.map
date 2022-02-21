@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.time.zone.ZoneRulesException.js",
+"mappings": ";;AAiDK,SAAA,6CAAA,CAAA,GAAA,EAAA,KAAA;gBAAA,GAAA,IAAA,GAAA,CAAA,UAAA,MAAA,GAAA,CAAA,UAAA,CAAA,UAAA,KAAA,KAAA,MAAA,GAAA,CAAA,UAAA,CAAA,SAAA,CAAA,SAAA,CAAA,kCAAA;C;AAAA,SAAA,6CAAA,mD;",
+"sources": ["file:///home/runner/work/scala-java-time/scala-java-time/core/js/target/scala-3.1.0/src_managed/main/org/threeten/bp/zone/ZoneRulesException.scala"],
+"names": [],
+"lineCount": 6
+}

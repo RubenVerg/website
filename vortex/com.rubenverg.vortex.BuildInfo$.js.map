@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "com.rubenverg.vortex.BuildInfo$.js",
+"mappings": ";;;AAGM,mB;AAAA,SAAA,mCAAA;EAMD,KAAAA,6CAAA,OANC;EAAA,mCAAA;ECgWK,IAAAC,MAAA,GAAAC,8BAAA,CAAA,sBAAA,EDhWL;EAMW,KAAA,6CAAA,GCsIsC,OAAA,oDAAA,CDtIhB,IAAAC,2BAAA,CAAA,SAAA,eCsIgB,EAAc,CAAd,CD5IjD;C;AAAA,SAAA,mCAAA,yC;AAAA,mCAAA,CAAA,SAAA,OAAAA,2BAAA,CAAA,IAAA,E;AAAA,mCAAA,CAAA,SAAA,CAAA,WAAA,GAAA,mC;AAAA,mB;AAAA,SAAA,mCAAA;;C;AAAA,SAAA,mCAAA,yC;AAAA,mCAAA,CAAA,SAAA,GAAA,mCAAA,CAAA,S;AAAA,IAAA,mCAAA,OAAAA,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,gCAAA;;EAAA,gCAAA;EAAA,CAAA;E;AAAA,SAAA,mCAAA,yC;AAAA,mCAAA,CAAA,SAAA,CAAA,UAAA,GAAA,mC;AAAA,IAAA,mC;AAAA,SAAA,mCAAA;QAAA,mCAAA;IAAA,mCAAA,OAAA,mCAAA;;SAAA,mCAAA;C;AAAA,SAAA,mCAAA,yC;",
+"sources": ["file:///F:/dev/vortex-diagrams/target/scala-3.1.1/src_managed/main/BuildInfo.scala", "file:///home/runner/work/scala-java-time/scala-java-time/core/js/target/scala-3.1.0/src_managed/main/org/threeten/bp/Instant.scala"],
+"names": ["buildTime", "this", "java.time.DayOfWeek", "java.lang.Object"],
+"lineCount": 35
+}

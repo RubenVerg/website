@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "locales.cldr.LocalesProvider.js",
+"mappings": ";;AACK,SAAA,iCAAA,CAAA,GAAA;eAAA,GAAA,IAAA,GAAA,CAAA,UAAA,KAAA,GAAA,CAAA,UAAA,CAAA,SAAA,CAAA,6BAAA;C;AAAA,SAAA,iCAAA,uC;AAAA,SAAA,wCAAA,CAAA,GAAA,EAAA,KAAA;gBAAA,GAAA,IAAA,GAAA,CAAA,UAAA,MAAA,GAAA,CAAA,UAAA,CAAA,UAAA,KAAA,KAAA,MAAA,GAAA,CAAA,UAAA,CAAA,SAAA,CAAA,SAAA,CAAA,6BAAA;C;AAAA,SAAA,wCAAA,8C;",
+"sources": ["file:///home/runner/work/sbt-locales/sbt-locales/api/src/main/scala/locales/cldr/provider.scala"],
+"names": [],
+"lineCount": 10
+}

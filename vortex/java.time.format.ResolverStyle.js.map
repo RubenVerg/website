@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.time.format.ResolverStyle.js",
+"mappings": ";;;;AA2CI,mB;AAAA,SAAA,kCAAA;EC7ByC,KAAAA,gBAAA,OD6BzC;EC7BwD,KAAAC,mBAAA,ID6BxD;C;AAAA,SAAA,kCAAA,wC;AAAA,kCAAA,CAAA,SAAA,OAAAC,yBAAA,CAAA,UAAA,E;AAAA,kCAAA,CAAA,SAAA,CAAA,WAAA,GAAA,kC;AAAA,mB;AAAA,SAAA,kCAAA;;C;AAAA,SAAA,kCAAA,wC;AAAA,kCAAA,CAAA,SAAA,GAAA,kCAAA,CAAA,S;AAAA,kCAAA,CAAA,SAAA,CAAAC,4BAAA;EENmC,WAAAC,wCAAA,CAAA,oBAAA,MFMnC;E;AAAA,IAAA,kCAAA,OAAAC,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,+BAAA;;EAAA,+BAAA;EAAA,OAAA;EAAA,CAAA;EAAA,aAAA;EAAA,qBAAA;EAAA,QAAA;EAAA,SAAA;EAAA,cAAA;E;AAAA,SAAA,kCAAA,wC;AAAA,kCAAA,CAAA,SAAA,CAAA,UAAA,GAAA,kC;",
+"sources": ["file:///home/runner/work/scala-java-time/scala-java-time/core/js/target/scala-3.1.0/src_managed/main/org/threeten/bp/format/ResolverStyle.scala", "https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalanglib/src/main/scala/java/lang/Enum.scala", "https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/Product.scala"],
+"names": ["_name", "_ordinal", "java.lang.Enum", "productIterator", "scala.Product$$anon$1", "java.lang.Object"],
+"lineCount": 35
+}

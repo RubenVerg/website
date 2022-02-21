@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "scala.collection.convert.AsScalaExtensions$SetHasAsScala.js",
+"mappings": ";;;;AA0DiB,mB;AAAA,SAAA,6CAAA,CAAgBA,KAAhB,EAAiB,CAAjB;EAAiB,KAAAC,+CAAA,OAAjB;OAAAD,oDAAA;EAAiB,KAAA,+CAAA,GAAA,CAAjB;OAAA,KAAA;UAAAE,2BAAA,CAAA,gBAAA,GAAA,0CAAA;;SAAA,oDAAA,GAAA,KAAA;;C;AAAA,SAAA,6CAAA,mD;AAAA,6CAAA,CAAA,SAAA,OAAAA,2BAAA,CAAA,IAAA,E;AAAA,6CAAA,CAAA,SAAA,CAAA,WAAA,GAAA,6C;AAAA,mB;AAAA,SAAA,6CAAA;;C;AAAA,SAAA,6CAAA,mD;AAAA,6CAAA,CAAA,SAAA,GAAA,6CAAA,CAAA,S;AAAA,6CAAA,CAAA,SAAA,CAITC,gBAJS;EAIiB,IAAAC,MAAA,GAAAC,0DAAA,CAAA,sCAAA,EAJjB;EAI8B,IAAA,CAAA,QAAA,+CAJ9B;ECkBV,OAAAC,yDAAA,CAAA,yDAAA,CAAA,MAAA,EAAA,CAAA,CDlBU;E;AAAA,IAAA,6CAAA,OAAAJ,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,0CAAA;;EAAA,0CAAA;EAAA,CAAA;E;AAAA,SAAA,6CAAA,mD;AAAA,6CAAA,CAAA,SAAA,CAAA,UAAA,GAAA,6C;",
+"sources": ["https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/collection/convert/AsScalaExtensions.scala", "https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/jdk/javaapi/CollectionConverters.scala"],
+"names": ["$outer", "s", "java.lang.Object", "asScala", "this", "scala.jdk.javaapi.CollectionConverters$", "scala.collection.convert.AsScalaConverters"],
+"lineCount": 37
+}

@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "scala.collection.mutable.Map$.js",
+"mappings": ";;AAmOO,mB;AAAA,SAAA,WAAA;ECkNmB,KAAAA,kCAAA,ODlNnB;EAAuBC,2BAAA,CAAA,2CAAA,OAAcA,2BAAA,CAAA,eAAA,EAAd,CAAvB;C;AAAA,SAAA,WAAA,iB;AAAA,WAAA,CAAA,SAAA,OAAAA,2BAAA,CAAA,yBAAA,E;AAAA,WAAA,CAAA,SAAA,CAAA,WAAA,GAAA,W;AAAA,mB;AAAA,SAAA,WAAA;;C;AAAA,SAAA,WAAA,iB;AAAA,WAAA,CAAA,SAAA,GAAA,WAAA,CAAA,S;AAAA,IAAA,WAAA,OAAAA,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,QAAA;;EAAA,QAAA;EAAA,sBAAA;EAAA,CAAA;EAAA,aAAA;EAAA,qBAAA;E;AAAA,SAAA,WAAA,iB;AAAA,WAAA,CAAA,SAAA,CAAA,UAAA,GAAA,W;AAAA,IAAA,W;AAAA,SAAA,WAAA;QAAA,WAAA;IAAA,WAAA,OAAA,WAAA;;SAAA,WAAA;C;AAAA,SAAA,WAAA,iB;",
+"sources": ["https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/collection/mutable/Map.scala", "https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/collection/Factory.scala"],
+"names": ["delegate", "java.lang.Object"],
+"lineCount": 35
+}

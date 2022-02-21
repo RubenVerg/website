@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.time.chrono.IsoChronology$.js",
+"mappings": ";;;AAiEM,mB;AAAA,SAAA,mCAAA;EAGI,KAAAA,iDAAA,OAHJ;;C;AAAA,SAAA,mCAAA,yC;AAAA,mCAAA,CAAA,SAAA,OAAAC,2BAAA,CAAA,IAAA,E;AAAA,mCAAA,CAAA,SAAA,CAAA,WAAA,GAAA,mC;AAAA,mB;AAAA,SAAA,mCAAA;;C;AAAA,SAAA,mCAAA,yC;AAAA,mCAAA,CAAA,SAAA,GAAA,mCAAA,CAAA,S;AAAA,mCAAA,CAAA,SAAA,CAG8BC,yCAH9B;EAG8B;SAAA,iDAAA,OAAAC,6CAAA,CAAA,kCAAA;IAAiB,KAAA,oDAAA,OAAjB;GAH9B;;E;AAAA,IAAA,mCAAA,OAAAF,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,gCAAA;;EAAA,gCAAA;EAAA,CAAA;E;AAAA,SAAA,mCAAA,yC;AAAA,mCAAA,CAAA,SAAA,CAAA,UAAA,GAAA,mC;AAAA,IAAA,mC;AAAA,SAAA,mCAAA;QAAA,mCAAA;IAAA,mCAAA,OAAA,mCAAA;;SAAA,mCAAA;C;AAAA,SAAA,mCAAA,yC;",
+"sources": ["file:///home/runner/work/scala-java-time/scala-java-time/core/js/target/scala-3.1.0/src_managed/main/org/threeten/bp/chrono/IsoChronology.scala"],
+"names": ["INSTANCE$lzy1", "java.lang.Object", "INSTANCE", "java.time.chrono.IsoChronology"],
+"lineCount": 40
+}

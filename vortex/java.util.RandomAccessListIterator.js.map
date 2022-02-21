@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.util.RandomAccessListIterator.js",
+"mappings": ";;;AA6Oc,mB;AAAA,SAAA,8BAAA,CAA4B,IAA5B,EAA2C,CAA3C,EAAmD,KAAnD,EAA+D,GAA/D;EC/N+D,KAAAA,wCAAA,ID+N/D;EC9NV,KAAAC,4CAAA,ID8NU;EC9NgB,KAAAC,0CAAA,ID8NhB;EC5NA,KAAAC,2CAAA,ID4NA;EAA4B,KAAAC,mCAAA,OAA5B;EAA4B,KAAA,mCAAA,GAAA,IAA5B;EACFC,qDAAA,CAAA,kDAAA,OAAoC,CAApC,EAAuC,KAAvC,EAA8C,GAA9C,CADE;C;AAAA,SAAA,8BAAA,oC;AAAA,8BAAA,CAAA,SAAA,OAAAA,qDAAA,CAAA,sCAAA,E;AAAA,8BAAA,CAAA,SAAA,CAAA,WAAA,GAAA,8B;AAAA,mB;AAAA,SAAA,8BAAA;;C;AAAA,SAAA,8BAAA,oC;AAAA,8BAAA,CAAA,SAAA,GAAA,8BAAA,CAAA,S;AAAA,8BAAA,CAAA,SAAA,CAGEC,SAHF,aAGM,KAHN;EAIF,OAAR,KAAA,mCAAQ,CAAA,SAAA,CAAC,KAAD,CAJE;E;AAAA,8BAAA,CAAA,SAAA,CASEC,YATF,aASS,KATT;EAUV,KAAA,mCAAW,CAAA,YAAA,CAAC,KAAD,CAVD;E;AAAA,IAAA,8BAAA,OAAAC,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,2BAAA;;EAAA,2BAAA;EAAA,mCAAA;EAAA,CAAA;EAAA,eAAA;EAAA,WAAA;EAAA,kBAAA;E;AAAA,SAAA,8BAAA,oC;AAAA,8BAAA,CAAA,SAAA,CAAA,UAAA,GAAA,8B;",
+"sources": ["https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalib/src/main/scala/java/util/AbstractList.scala", "https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalib/src/main/scala/java/util/AbstractRandomAccessListIterator.scala"],
+"names": ["i", "start", "end", "last", "list", "java.util.AbstractRandomAccessListIterator", "get", "remove", "java.lang.Object"],
+"lineCount": 40
+}

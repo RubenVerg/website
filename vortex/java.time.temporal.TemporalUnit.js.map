@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.time.temporal.TemporalUnit.js",
+"mappings": ";;AAsDK,SAAA,oCAAA,CAAA,GAAA;eAAA,GAAA,IAAA,GAAA,CAAA,UAAA,KAAA,GAAA,CAAA,UAAA,CAAA,SAAA,CAAA,gCAAA;C;AAAA,SAAA,oCAAA,0C;AAAA,SAAA,2CAAA,CAAA,GAAA,EAAA,KAAA;gBAAA,GAAA,IAAA,GAAA,CAAA,UAAA,MAAA,GAAA,CAAA,UAAA,CAAA,UAAA,KAAA,KAAA,MAAA,GAAA,CAAA,UAAA,CAAA,SAAA,CAAA,SAAA,CAAA,gCAAA;C;AAAA,SAAA,2CAAA,iD;",
+"sources": ["file:///home/runner/work/scala-java-time/scala-java-time/core/js/target/scala-3.1.0/src_managed/main/org/threeten/bp/temporal/TemporalUnit.scala"],
+"names": [],
+"lineCount": 10
+}

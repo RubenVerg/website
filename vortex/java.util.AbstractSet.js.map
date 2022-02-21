@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.util.AbstractSet.js",
+"mappings": ";;;;AAkBe,mB;AAAA,SAAA,iBAAA;;C;AAAA,SAAA,iBAAA,uB;AAAA,iBAAA,CAAA,SAAA,OAAAA,uCAAA,CAAA,wBAAA,E;AAAA,iBAAA,CAAA,SAAA,CAAA,WAAA,GAAA,iB;AAAA,mB;AAAA,SAAA,iBAAA;;C;AAAA,SAAA,iBAAA,uB;AAAA,iBAAA,CAAA,SAAA,GAAA,iBAAA,CAAA,S;AAAA,iBAAA,CAAA,SAAA,CAEAC,YAFA,aAEO,IAFP;EAGX,IAA8B,CAA1B,IAA0B,KAAG,IAAH,CAA9B;IAAuC,WAAvC;SAGS,IAAAC,+BAAA,CAAA,iBAAA,CAAA,IAAA;QAAA,EAAA,GAAA,IAAA;IAAkD,QAAf,CAAZ,EAAS,CAAA,OAAA,EAAG,KAAG,IAAS,CAAA,OAAA,EAAZ,CAAe,IAAG,IAAW,CAAA,6BAAA,CAAC,EAAD,CAAd,CAAlD;;IACuB,YADvB;GANE;E;AAAA,iBAAA,CAAA,SAAA,CAYAC,WAZA;EC6CM,IAAAC,aAAA,QAAA,qBAAA,ED7CN;EAaY,IAAA,MAAA,IAbZ;EC6GT,OAAqB,cAAA,UAAA,EAArB;IACa,IAAA,IAAA,GAAA,MADb;IACgC,IAAA,IAAA,iBAAA,OAAA,EADhC;IDhGqC,IAAA,IAAA,IAAA,IAAA,KCgGrC;IACS,MDjG6C,KAATC,2BAAA,CAAA,eAAA,CAAL,IAAK,CAAS,GAAE,IAAF,MCgGtD;GD7GS;EC+GT,QAAA,MAAA,KD/GS;E;",
+"sources": ["https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalib/src/main/scala/java/util/AbstractSet.scala", "https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalib/src/main/scala/java/util/ScalaOps.scala"],
+"names": ["java.util.AbstractCollection", "equals", "java.util.Collection", "hashCode", "__self", "java.lang.Object"],
+"lineCount": 38
+}

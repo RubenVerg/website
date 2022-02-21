@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "scala.scalajs.reflect.LoadableModuleClass.js",
+"mappings": ";;AAkBY,SAAA,0CAAA,CAAA,GAAA,EAAA,KAAA;gBAAA,GAAA,IAAA,GAAA,CAAA,UAAA,MAAA,GAAA,CAAA,UAAA,CAAA,UAAA,KAAA,KAAA,MAAA,GAAA,CAAA,UAAA,CAAA,SAAA,CAAA,SAAA,CAAA,+BAAA;C;AAAA,SAAA,0CAAA,gD;",
+"sources": ["https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/library/src/main/scala/scala/scalajs/reflect/Reflect.scala"],
+"names": [],
+"lineCount": 6
+}

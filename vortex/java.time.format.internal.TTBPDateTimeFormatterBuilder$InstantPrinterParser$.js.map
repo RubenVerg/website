@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.time.format.internal.TTBPDateTimeFormatterBuilder$InstantPrinterParser$.js",
+"mappings": ";;AAk1BwB,mB;AAAA,SAAA,gFAAA;EACT,KAAAA,sLAAA,OADS;EAET,KAAAC,mLAAA,OAFS;EACT,KAAA,sLAAA,GAAgC,IAAAC,2BAAA,CAAA,SAAA,gBADvB;EAET,KAAA,mLAAA,GAAgC,IAAAA,2BAAA,CAAA,SAAA,gBAFvB;C;AAAA,SAAA,gFAAA,sF;AAAA,gFAAA,CAAA,SAAA,OAAAA,2BAAA,CAAA,IAAA,E;AAAA,gFAAA,CAAA,SAAA,CAAA,WAAA,GAAA,gF;AAAA,mB;AAAA,SAAA,gFAAA;;C;AAAA,SAAA,gFAAA,sF;AAAA,gFAAA,CAAA,SAAA,GAAA,gFAAA,CAAA,S;AAAA,IAAA,gFAAA,OAAAA,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,6EAAA;;EAAA,6EAAA;EAAA,CAAA;E;AAAA,SAAA,gFAAA,sF;AAAA,gFAAA,CAAA,SAAA,CAAA,UAAA,GAAA,gF;AAAA,IAAA,gF;AAAA,SAAA,gFAAA;QAAA,gFAAA;IAAA,gFAAA,OAAA,gFAAA;;SAAA,gFAAA;C;AAAA,SAAA,gFAAA,sF;",
+"sources": ["file:///home/runner/work/scala-java-time/scala-java-time/core/js/target/scala-3.1.0/src_managed/main/org/threeten/bp/format/internal/TTBPDateTimeFormatterBuilder.scala"],
+"names": ["SECONDS_PER_10000_YEARS", "SECONDS_0000_TO_1970", "java.lang.Object"],
+"lineCount": 34
+}

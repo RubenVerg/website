@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "scala.collection.convert.AsJavaConverters.js",
+"mappings": ";;;;AAoLwC,SAAAA,sDAAA,CAAAC,KAAA,EAAxB,CAAwB;EAC/B,KAAA,CAAA;IAAwB,WAAxB;SACW,KAAA,CAAA,YAAAC,yDAAA,CAAA,gDAAA;QAAA,EAAA,GAAA,CAAA;IAAC,IAAA,OAAA,GAAA,EAAA,CCHO,2DDGR;IAAa,OAAA,OAAb;;IACa,WAAAC,6EAAA,CAAA,+CAAA,CAAe,CAAf,CADb;GAFoB;C;AAAA,SAAAH,sDAAA,4D;",
+"sources": ["https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/collection/convert/AsJavaConverters.scala", "https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/collection/convert/JavaCollectionWrappers.scala"],
+"names": ["asJava", "this", "scala.collection.convert.AsScalaConverters", "scala.collection.convert.JavaCollectionWrappers$SetWrapper"],
+"lineCount": 16
+}

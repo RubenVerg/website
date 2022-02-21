@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "scala.runtime.EnumValue.js",
+"mappings": ";;AAKG,SAAAA,qCAAA,CAAAC,KAAA,EAD0B,CAC1B;EAA+B,MAAAC,2BAAA,CAAA,qCAAA,KAAAA,2BAAA,CAAA,+BAAA,ICsHgB,CAAH,EAAG,GAAE,CAAF,CDtHhB,CAA/B;C;AAAA,SAAAF,qCAAA,2C;",
+"sources": ["https://raw.githubusercontent.com/lampepfl/dotty/v3.1.1/library/src/scala/runtime/EnumValue.scala", "https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalanglib/src/main/scala/java/lang/Integer.scala"],
+"names": ["productElement", "this", "java.lang.Object"],
+"lineCount": 6
+}

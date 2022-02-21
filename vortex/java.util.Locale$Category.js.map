@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.util.Locale$Category.js",
+"mappings": ";;;;AA6CM,mB;AAAA,SAAA,qBAAA;EC/BuC,KAAAA,gBAAA,OD+BvC;EC/BsD,KAAAC,mBAAA,ID+BtD;C;AAAA,SAAA,qBAAA,2B;AAAA,qBAAA,CAAA,SAAA,OAAAC,yBAAA,CAAA,UAAA,E;AAAA,qBAAA,CAAA,SAAA,CAAA,WAAA,GAAA,qB;AAAA,mB;AAAA,SAAA,qBAAA;;C;AAAA,SAAA,qBAAA,2B;AAAA,qBAAA,CAAA,SAAA,GAAA,qBAAA,CAAA,S;AAAA,qBAAA,CAAA,SAAA,CAAAC,4BAAA;EERiC,WAAAC,wCAAA,CAAA,oBAAA,MFQjC;E;AAAA,SAAA,6BAAA,CAAA,GAAA,EAAA,KAAA;gBAAA,GAAA,IAAA,GAAA,CAAA,UAAA,MAAA,GAAA,CAAA,UAAA,CAAA,UAAA,KAAA,KAAA,MAAA,GAAA,CAAA,UAAA,CAAA,SAAA,CAAA,SAAA,CAAA,kBAAA;C;AAAA,SAAA,6BAAA,mC;AAAA,IAAA,qBAAA,OAAAC,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,kBAAA;;EAAA,kBAAA;EAAA,OAAA;EAAA,CAAA;EAAA,aAAA;EAAA,qBAAA;EAAA,QAAA;EAAA,SAAA;EAAA,cAAA;E;AAAA,SAAA,qBAAA,2B;AAAA,qBAAA,CAAA,SAAA,CAAA,UAAA,GAAA,qB;",
+"sources": ["file:///home/runner/work/scala-java-locales/scala-java-locales/core/shared/src/main/scala-3.x/java/util/Locale.scala", "https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalanglib/src/main/scala/java/lang/Enum.scala", "https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/Product.scala"],
+"names": ["_name", "_ordinal", "java.lang.Enum", "productIterator", "scala.Product$$anon$1", "java.lang.Object"],
+"lineCount": 39
+}

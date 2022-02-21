@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.time.zone.StandardZoneRules.js",
+"mappings": ";;AAsJW,SAAA,4CAAA,CAAA,GAAA,EAAA,KAAA;gBAAA,GAAA,IAAA,GAAA,CAAA,UAAA,MAAA,GAAA,CAAA,UAAA,CAAA,UAAA,KAAA,KAAA,MAAA,GAAA,CAAA,UAAA,CAAA,SAAA,CAAA,SAAA,CAAA,iCAAA;C;AAAA,SAAA,4CAAA,kD;",
+"sources": ["file:///home/runner/work/scala-java-time/scala-java-time/core/js/target/scala-3.1.0/src_managed/main/org/threeten/bp/zone/StandardZoneRules.scala"],
+"names": [],
+"lineCount": 6
+}

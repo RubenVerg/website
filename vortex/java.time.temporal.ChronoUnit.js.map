@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.time.temporal.ChronoUnit.js",
+"mappings": ";;;;AAsDc,SAAAA,qEAAA,CAAAC,KAAA,EAAU,IAAV,EAAwB,OAAxB,EAAkD,QAAlD,EAAA,MAAA,EAAA,SAAA;EAAAA,KAAA,CAAA,sCAAA,GAAA,IAAA;EAAAA,KAAA,CAAA,0CAAA,GAAA,QAAA;EACHC,yBAAA,CAAA,mBAAA,CADGD,KACH,EAA0B,MAA1B,EAA0B,SAA1B,CADG;SAAAA,KAAA;C;AAAA,SAAAD,qEAAA,2E;AAAV,mB;AAAA,SAAA,iCAAA;ECxCyC,KAAAG,gBAAA,ODwCzC;ECxCwD,KAAAC,mBAAA,IDwCxD;EAAoB,KAAAC,sCAAA,OAApB;EAA4D,KAAAC,0CAAA,OAA5D;EAoIM,KAAAC,6CAAA,OApIN;;C;AAAA,SAAA,iCAAA,uC;AAAA,iCAAA,CAAA,SAAA,OAAAL,yBAAA,CAAA,UAAA,E;AAAA,iCAAA,CAAA,SAAA,CAAA,WAAA,GAAA,iC;AAAA,mB;AAAA,SAAA,iCAAA;;C;AAAA,SAAA,iCAAA,uC;AAAA,iCAAA,CAAA,SAAA,GAAA,iCAAA,CAAA,S;AAAA,iCAAA,CAAA,SAAA,CAAAM,4BAAA;EEjBmC,WAAAC,wCAAA,CAAA,oBAAA,MFiBnC;E;AAAA,iCAAA,CAAA,SAAA,CAuNUC,WAvNV;;E;AAAA,IAAA,iCAAA,OAAAC,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,8BAAA;;EAAA,8BAAA;EAAA,OAAA;EAAA,CAAA;EAAA,aAAA;EAAA,qBAAA;EAAA,gCAAA;EAAA,QAAA;EAAA,SAAA;EAAA,cAAA;E;AAAA,SAAA,iCAAA,uC;AAAA,iCAAA,CAAA,SAAA,CAAA,UAAA,GAAA,iC;",
+"sources": ["file:///home/runner/work/scala-java-time/scala-java-time/core/js/target/scala-3.1.0/src_managed/main/org/threeten/bp/temporal/ChronoUnit.scala", "https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalanglib/src/main/scala/java/lang/Enum.scala", "https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/Product.scala"],
+"names": ["<init>", "this", "java.lang.Enum", "_name", "_ordinal", "name", "duration", "values$lzy1", "productIterator", "scala.Product$$anon$1", "toString", "java.lang.Object"],
+"lineCount": 50
+}

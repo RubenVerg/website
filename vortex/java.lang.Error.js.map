@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.lang.Error.js",
+"mappings": ";;AAgQM,MAAA,WAAA,SAAAA,2BAAA,CAAA,eAAA;C;AAAA,SAAA,WAAA,iB;",
+"sources": ["https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalanglib/src/main/scala/java/lang/Throwables.scala"],
+"names": ["java.lang.Object"],
+"lineCount": 5
+}

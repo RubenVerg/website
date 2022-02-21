@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.time.format.internal.TTBPDateTimeFormatterBuilder$$anon$4.js",
+"mappings": ";;;;AAgK4B,mB;AAAA,SAAA,kEAAA;EClJiB,KAAAA,gBAAA,ODkJjB;EClJgC,KAAAC,mBAAA,IDkJhC;EANgB,KAAAC,iFAAA,IAMhB;EAAAC,4FAAA,CAAA,wFAAA,OAAe,SAAf,EAA0B,CAA1B,EAA2B,SAA3B,EAA2B,CAA3B;C;AAAA,SAAA,kEAAA,wE;AAAA,kEAAA,CAAA,SAAA,OAAAA,4FAAA,CAAA,yEAAA,E;AAAA,kEAAA,CAAA,SAAA,CAAA,WAAA,GAAA,kE;AAAA,mB;AAAA,SAAA,kEAAA;;C;AAAA,SAAA,kEAAA,wE;AAAA,kEAAA,CAAA,SAAA,GAAA,kEAAA,CAAA,S;AAAA,kEAAA,CAAA,SAAA,CAAAC,eAAA;EE7JM,QF6JN;E;AAAA,kEAAA,CAAA,SAAA,CAAAC,oBAAA,aAAA,CAAA;SAAAC,kCAAA,CAAA,qCAAA,OAAA,CAAA;E;AAAA,kEAAA,CAAA,SAAA,CAAAC,gBAAA;cC/IC,gBD+ID;E;AAAA,IAAA,kEAAA,OAAAC,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,+DAAA;;EAAA,+DAAA;EAAA,sEAAA;EAAA,OAAA;EAAA,CAAA;EAAA,aAAA;EAAA,qBAAA;EAAA,gDAAA;EAAA,QAAA;EAAA,SAAA;EAAA,cAAA;EAAA,YAAA;EAAA,iBAAA;EAAA,yBAAA;EAAA,2BAAA;E;AAAA,SAAA,kEAAA,wE;AAAA,kEAAA,CAAA,SAAA,CAAA,UAAA,GAAA,kE;",
+"sources": ["file:///home/runner/work/scala-java-time/scala-java-time/core/js/target/scala-3.1.0/src_managed/main/org/threeten/bp/format/internal/TTBPDateTimeFormatterBuilder.scala", "https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalanglib/src/main/scala/java/lang/Enum.scala", "https://raw.githubusercontent.com/lampepfl/dotty/v3.1.1/library/src/scala/runtime/EnumValue.scala"],
+"names": ["_name", "_ordinal", "ordinal", "java.time.format.internal.TTBPDateTimeFormatterBuilder$SettingsParser", "productArity", "productElement", "scala.runtime.EnumValue", "productPrefix", "java.lang.Object"],
+"lineCount": 49
+}

@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.util.Map$Entry.js",
+"mappings": ";;AA2JQ,SAAA,gBAAA,CAAA,GAAA;eAAA,GAAA,IAAA,GAAA,CAAA,UAAA,KAAA,GAAA,CAAA,UAAA,CAAA,SAAA,CAAA,YAAA;C;AAAA,SAAA,gBAAA,sB;AAAA,SAAA,uBAAA,CAAA,GAAA,EAAA,KAAA;gBAAA,GAAA,IAAA,GAAA,CAAA,UAAA,MAAA,GAAA,CAAA,UAAA,CAAA,UAAA,KAAA,KAAA,MAAA,GAAA,CAAA,UAAA,CAAA,SAAA,CAAA,SAAA,CAAA,YAAA;C;AAAA,SAAA,uBAAA,6B;",
+"sources": ["https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalib/src/main/scala/java/util/Map.scala"],
+"names": [],
+"lineCount": 10
+}

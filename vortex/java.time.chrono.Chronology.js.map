@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.time.chrono.Chronology.js",
+"mappings": ";;AAk1BU,SAAAA,6CAAA,CAAAC,KAAA,EAFW,GAEX;MAAA,gCAAA,CAAA,GAAA;IAAkB,IAAA,KAAA,GAAA,GAAlB;IAAqB,QAAC,CAAtBA,KAAsB,KAAQ,KAAR,CAAD,IAAmB,CAhBIC,2BAAA,CAAA,qBAAA,CC9sBjC,KD8sBiC,EC9sBjC,KD8sBiC,CAgBJ,KAAoB,CAApB,CAAnB,CAArB;;IACkB,YADlB;;C;AAAA,SAAAF,6CAAA,mD;AAaoB,SAAAG,4CAAA,CAAAF,KAAA;2DAAAA,KAAA;UEtqBYC,2BAAA,CAAA,uBAAA,CAAC,MAAD,CFsqBZ,GAAoBA,2BAAA,CAAA,iBAAA,CC3uB7B,KD2uB6B,CAApB;C;AAAA,SAAAC,4CAAA,kD;AApkBzB,SAAA,gCAAA,CAAA,GAAA;eAAA,GAAA,IAAA,GAAA,CAAA,UAAA,KAAA,GAAA,CAAA,UAAA,CAAA,SAAA,CAAA,4BAAA;C;AAAA,SAAA,gCAAA,sC;AAAA,SAAA,uCAAA,CAAA,GAAA,EAAA,KAAA;gBAAA,GAAA,IAAA,GAAA,CAAA,UAAA,MAAA,GAAA,CAAA,UAAA,CAAA,UAAA,KAAA,KAAA,MAAA,GAAA,CAAA,UAAA,CAAA,SAAA,CAAA,SAAA,CAAA,4BAAA;C;AAAA,SAAA,uCAAA,6C;",
+"sources": ["file:///home/runner/work/scala-java-time/scala-java-time/core/js/target/scala-3.1.0/src_managed/main/org/threeten/bp/chrono/Chronology.scala", "file:///home/runner/work/scala-java-time/scala-java-time/core/js/target/scala-3.1.0/src_managed/main/org/threeten/bp/chrono/IsoChronology.scala", "https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalanglib/src/main/scala/java/lang/System.scala"],
+"names": ["equals", "this", "java.lang.Object", "hashCode"],
+"lineCount": 24
+}

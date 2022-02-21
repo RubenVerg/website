@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.time.zone.ZoneRules.js",
+"mappings": ";;AA4Kc,mB;AAAA,SAAA,4BAAA;;C;AAAA,SAAA,4BAAA,kC;AAAA,4BAAA,CAAA,SAAA,OAAAA,2BAAA,CAAA,IAAA,E;AAAA,4BAAA,CAAA,SAAA,CAAA,WAAA,GAAA,4B;AAAA,mB;AAAA,SAAA,4BAAA;;C;AAAA,SAAA,4BAAA,kC;AAAA,4BAAA,CAAA,SAAA,GAAA,4BAAA,CAAA,S;",
+"sources": ["file:///home/runner/work/scala-java-time/scala-java-time/core/js/target/scala-3.1.0/src_managed/main/org/threeten/bp/zone/ZoneRules.scala"],
+"names": ["java.lang.Object"],
+"lineCount": 15
+}

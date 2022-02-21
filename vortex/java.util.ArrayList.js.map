@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.util.ArrayList.js",
+"mappings": ";;;;AAiBY,SAAAA,gCAAA,CAAAC,KAAA,EADuC,KACvC;EAAAA,KADuC,CAAA,0CAAA,GAAA,KACvC;EADuC,OACvCA,KAAA;C;AAAA,SAAAD,gCAAA,sC;AASN,SAAAA,kBAAA,CAAAC,KAAA;EACF,gCAAA,CADEA,KACF,EAAK,EAAL,CADE;EACF,OADEA,KAAA;C;AAAA,SAAAD,kBAAA,wB;AAVA,mB;AAAA,SAAA,eAAA;EAA6C,KAAAE,0CAAA,OAA7C;C;AAAA,SAAA,eAAA,qB;AAAA,eAAA,CAAA,SAAA,OAAAC,iCAAA,CAAA,kBAAA,E;AAAA,eAAA,CAAA,SAAA,CAAA,WAAA,GAAA,e;AAAA,mB;AAAA,SAAA,eAAA;;C;AAAA,SAAA,eAAA,qB;AAAA,eAAA,CAAA,SAAA,GAAA,eAAA,CAAA,S;AAAA,eAAA,CAAA,SAAA,CA0BAC,OA1BA;EA2BI,QAAN,KA3B+C,0CA2BzC,CAAA,MAAA,KA3BJ;E;AAAA,eAAA,CAAA,SAAA,CAgCAC,SAhCA,aAgCI,KAhCJ;EAiCF,IAAkB,CAAA,wBAAA,CAAC,KAAD,CAjChB;EAkCG,OAAL,KAlC+C,0CAkC1C,CAAC,KAAD,CAlCH;E;AAAA,eAAA,CAAA,SAAA,CA2CSC,SA3CT,aA2Ca,CA3Cb;EA4CF,IAAA,KAAA,QA5C+C,0CAA7C;EC8hDK,MAAA,IAAA,CAAC,CAAD,CD9hDL;EA6CF,WA7CE;E;AAAA,eAAA,CAAA,SAAA,CAqDSC,YArDT,aAqDgB,KArDhB;EAsDF,IAAkB,CAAA,wBAAA,CAAC,KAAD,CAtDhB;;EAuDF,IAAA,KAAA,QAvD+C,0CAA7C;mDE8EW,KF9EX,EAuDW,KAvDX;E;AAAA,IAAA,eAAA,OAAAC,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,YAAA;;EAAA,YAAA;EAAA,eAAA;EAAA,qBAAA;EAAA,CAAA;EAAA,aAAA;EAAA,WAAA;EAAA,OAAA;EAAA,eAAA;EAAA,YAAA;EAAA,qBAAA;E;AAAA,SAAA,eAAA,qB;AAAA,eAAA,CAAA,SAAA,CAAA,UAAA,GAAA,e;",
+"sources": ["https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalib/src/main/scala/java/util/ArrayList.scala", "https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/library/src/main/scala-new-collections/scala/scalajs/js/ArrayOps.scala", "https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/library/src/main/scala-new-collections/scala/scalajs/js/Any.scala"],
+"names": ["<init>", "this", "inner", "java.util.AbstractList", "size", "get", "add", "remove", "java.lang.Object"],
+"lineCount": 61
+}

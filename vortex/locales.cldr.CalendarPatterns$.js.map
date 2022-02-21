@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "locales.cldr.CalendarPatterns$.js",
+"mappings": ";;;AA6BM,mB;AAAA,SAAA,kCAAA;EACD,KAAAA,uCAAA,OADC;EAAA,kCAAA;;ECmLyB,IAAA,YAAA,GAAAC,2BAAA,CAAA,oBAAA,EDnLzB;ECmLyB,IAAA,YAAA,GAAAA,2BAAA,CAAA,oBAAA,EDnLzB;EACM,KAAA,uCAAA,GANb,IAAAC,wCAAA,CAAA,iCAAA,CAAA,YAAA,EAAA,YAAA,CAKO;C;AAAA,SAAA,kCAAA,wC;AAAA,kCAAA,CAAA,SAAA,OAAAD,2BAAA,CAAA,IAAA,E;AAAA,kCAAA,CAAA,SAAA,CAAA,WAAA,GAAA,kC;AAAA,mB;AAAA,SAAA,kCAAA;;C;AAAA,SAAA,kCAAA,wC;AAAA,kCAAA,CAAA,SAAA,GAAA,kCAAA,CAAA,S;AAAA,kCAAA,CAAA,SAAA,CAHyBE,WAGzB;EAHyB,yBAGzB;E;AAAA,IAAA,kCAAA,OAAAF,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,+BAAA;;EAAA,+BAAA;EAAA,CAAA;EAAA,iBAAA;EAAA,yBAAA;E;AAAA,SAAA,kCAAA,wC;AAAA,kCAAA,CAAA,SAAA,CAAA,UAAA,GAAA,kC;AAAA,IAAA,kC;AAAA,SAAA,kCAAA;QAAA,kCAAA;IAAA,kCAAA,OAAA,kCAAA;;SAAA,kCAAA;C;AAAA,SAAA,kCAAA,wC;",
+"sources": ["file:///home/runner/work/sbt-locales/sbt-locales/api/src/main/scala/locales/cldr/calendar.scala", "https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/collection/immutable/Map.scala"],
+"names": ["Zero", "java.lang.Object", "locales.cldr.CalendarPatterns", "toString"],
+"lineCount": 42
+}

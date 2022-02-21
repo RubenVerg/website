@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "scala.collection.convert.JavaCollectionWrappers$SetWrapper.js",
+"mappings": ";;;;AAyIQ,mB;AAAA,SAAA,+CAAA,CAAc,UAAd;EAAc,KAAAA,sHAAA,OAAd;EAAc,KAAA,sHAAA,GAAA,UAAd;C;AAAA,SAAA,+CAAA,qD;AAAA,+CAAA,CAAA,SAAA,OAAAC,gCAAA,CAAA,iBAAA,E;AAAA,+CAAA,CAAA,SAAA,CAAA,WAAA,GAAA,+C;AAAA,mB;AAAA,SAAA,+CAAA;;C;AAAA,SAAA,+CAAA,qD;AAAA,+CAAA,CAAA,SAAA,GAAA,+CAAA,CAAA,S;AAAA,+CAAA,CAAA,SAAA,CAESC,cAFT,aAEkB,CAFlB;EAGF;IAAyB,OAAnB,KAAA,sHAAmB,CAAA,cAAA,CAAC,CAAD,CAAzB;WAAA,CAAA;IACa;MAA2B,YAA3B;;MADb,MAAA,CACa;KADb;GAHE;E;AAAA,+CAAA,CAAA,SAAA,CAMSC,UANT;EAM8B,OAAX,KAAA,sHAAW,CAAA,UAAA,EAN9B;E;AAAA,+CAAA,CAAA,SAAA,CAOAC,OAPA;EAOkB,OAAX,KAAA,sHAAW,CAAA,OAAA,EAPlB;E;AAAA,+CAAA,CAAA,SAAA,CAQAC,qBARA;EAQW,WAAAC,iGAAA,CAAA,uDAAA,MARX;E;AAAA,IAAA,+CAAA,OAAAC,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,4CAAA;;EAAA,4CAAA;EAAA,cAAA;EAAA,qBAAA;EAAA,CAAA;EAAA,aAAA;EAAA,WAAA;EAAA,MAAA;EAAA,qBAAA;E;AAAA,SAAA,+CAAA,qD;AAAA,+CAAA,CAAA,SAAA,CAAA,UAAA,GAAA,+C;",
+"sources": ["https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/collection/convert/JavaCollectionWrappers.scala"],
+"names": ["underlying", "java.util.AbstractSet", "contains", "isEmpty", "size", "iterator", "scala.collection.convert.JavaCollectionWrappers$SetWrapper$$anon$1", "java.lang.Object"],
+"lineCount": 52
+}

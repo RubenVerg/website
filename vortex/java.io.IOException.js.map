@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.io.IOException.js",
+"mappings": ";;AAcM,SAAA,+BAAA,CAAA,GAAA,EAAA,KAAA;gBAAA,GAAA,IAAA,GAAA,CAAA,UAAA,MAAA,GAAA,CAAA,UAAA,CAAA,UAAA,KAAA,KAAA,MAAA,GAAA,CAAA,UAAA,CAAA,SAAA,CAAA,SAAA,CAAA,oBAAA;C;AAAA,SAAA,+BAAA,qC;",
+"sources": ["https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalib/src/main/scala/java/io/Throwables.scala"],
+"names": [],
+"lineCount": 6
+}

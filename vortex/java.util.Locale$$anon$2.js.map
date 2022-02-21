@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.util.Locale$$anon$2.js",
+"mappings": ";;;;;AA8CwB,mB;AAAA,SAAA,oBAAA;EChCqB,KAAAA,gBAAA,ODgCrB;EChCoC,KAAAC,mBAAA,IDgCpC;EADoCC,yBAAA,CAAA,mBAAA,OACf,SADe,EACf,CADe,CACpC;C;AAAA,SAAA,oBAAA,0B;AAAA,oBAAA,CAAA,SAAA,OAAAC,wCAAA,CAAA,qBAAA,E;AAAA,oBAAA,CAAA,SAAA,CAAA,WAAA,GAAA,oB;AAAA,mB;AAAA,SAAA,oBAAA;;C;AAAA,SAAA,oBAAA,0B;AAAA,oBAAA,CAAA,SAAA,GAAA,oBAAA,CAAA,S;AAAA,oBAAA,CAAA,SAAA,CAAAC,eAAA;EE3CU,QF2CV;E;AAAA,oBAAA,CAAA,SAAA,CAAAC,oBAAA,aAAA,CAAA;SAAAC,kCAAA,CAAA,qCAAA,OAAA,CAAA;E;AAAA,oBAAA,CAAA,SAAA,CAAAC,gBAAA;cC7BK,gBD6BL;E;AAAA,IAAA,oBAAA,OAAAC,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,iBAAA;;EAAA,iBAAA;EAAA,kBAAA;EAAA,OAAA;EAAA,CAAA;EAAA,aAAA;EAAA,qBAAA;EAAA,QAAA;EAAA,SAAA;EAAA,cAAA;EAAA,YAAA;EAAA,iBAAA;EAAA,yBAAA;EAAA,2BAAA;E;AAAA,SAAA,oBAAA,0B;AAAA,oBAAA,CAAA,SAAA,CAAA,UAAA,GAAA,oB;",
+"sources": ["file:///home/runner/work/scala-java-locales/scala-java-locales/core/shared/src/main/scala-3.x/java/util/Locale.scala", "https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalanglib/src/main/scala/java/lang/Enum.scala", "https://raw.githubusercontent.com/lampepfl/dotty/v3.1.1/library/src/scala/runtime/EnumValue.scala"],
+"names": ["_name", "_ordinal", "java.lang.Enum", "java.util.Locale$Category", "productArity", "productElement", "scala.runtime.EnumValue", "productPrefix", "java.lang.Object"],
+"lineCount": 48
+}

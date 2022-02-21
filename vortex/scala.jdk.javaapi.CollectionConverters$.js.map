@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "scala.jdk.javaapi.CollectionConverters$.js",
+"mappings": ";;AA4EO,mB;AAAA,SAAA,sCAAA;;C;AAAA,SAAA,sCAAA,4C;AAAA,sCAAA,CAAA,SAAA,OAAAA,2BAAA,CAAA,IAAA,E;AAAA,sCAAA,CAAA,SAAA,CAAA,WAAA,GAAA,sC;AAAA,mB;AAAA,SAAA,sCAAA;;C;AAAA,SAAA,sCAAA,4C;AAAA,sCAAA,CAAA,SAAA,GAAA,sCAAA,CAAA,S;AAAA,IAAA,sCAAA,OAAAA,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,mCAAA;;EAAA,mCAAA;EAAA,CAAA;EAAA,2BAAA;EAAA,4BAAA;E;AAAA,SAAA,sCAAA,4C;AAAA,sCAAA,CAAA,SAAA,CAAA,UAAA,GAAA,sC;AAAA,IAAA,sC;AAAA,SAAA,sCAAA;QAAA,sCAAA;IAAA,sCAAA,OAAA,sCAAA;;SAAA,sCAAA;C;AAAA,SAAA,sCAAA,4C;",
+"sources": ["https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/jdk/javaapi/CollectionConverters.scala"],
+"names": ["java.lang.Object"],
+"lineCount": 33
+}

@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.time.DateTimeException.js",
+"mappings": ";;AAgDsB,SAAAA,mDAAA,CAAAC,KAAA,EAAC,OAAD,EAAkB,KAAlB;EC2UVC,2BAAA,CAAA,yCAAA,CD3UUD,KC2UV,EAAU,OAAV,EAAa,KAAb,EA8EyD,IA9EzD,EA8E+D,IA9E/D,CD3UU;EC2UV,OD3UUA,KAAA;C;AAAA,SAAAD,mDAAA,yD;AASjB,SAAAA,qCAAA,CAAAC,KAAA,EAAK,OAAL;ECkUOC,2BAAA,CAAA,yCAAA,CDlUPD,KCkUO,EAAU,OAAV,EDlU+B,ICkU/B,EA8EyD,IA9EzD,EA8E+D,IA9E/D,CDlUP;ECkUO,ODlUPA,KAAA;C;AAAA,SAAAD,qCAAA,2C;AATA,MAAA,+BAAA,SAAAE,2BAAA,CAAA,sBAAA;C;AAAA,SAAA,+BAAA,qC;AAAA,SAAA,uCAAA,CAAA,GAAA,EAAA,KAAA;gBAAA,GAAA,IAAA,GAAA,CAAA,UAAA,MAAA,GAAA,CAAA,UAAA,CAAA,UAAA,KAAA,KAAA,MAAA,GAAA,CAAA,UAAA,CAAA,SAAA,CAAA,SAAA,CAAA,4BAAA;C;AAAA,SAAA,uCAAA,6C;AAAA,IAAA,+BAAA,OAAAA,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,4BAAA;;EAAA,4BAAA;EAAA,mBAAA;EAAA,YAAA;EAAA,YAAA;EAAA,CAAA;EAAA,qBAAA;E;AAAA,SAAA,+BAAA,qC;AAAA,+BAAA,CAAA,SAAA,CAAA,UAAA,GAAA,+B;",
+"sources": ["file:///home/runner/work/scala-java-time/scala-java-time/core/js/target/scala-3.1.0/src_managed/main/org/threeten/bp/DateTimeException.scala", "https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalanglib/src/main/scala/java/lang/Throwables.scala"],
+"names": ["<init>", "this", "java.lang.Object"],
+"lineCount": 31
+}

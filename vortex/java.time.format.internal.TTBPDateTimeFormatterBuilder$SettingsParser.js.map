@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "java.time.format.internal.TTBPDateTimeFormatterBuilder$SettingsParser.js",
+"mappings": ";;;;AA0JoB,SAAAA,wFAAA,CAAAC,KAAA,EAAU,IAAV,EAAwB,OAAxB,EAAA,MAAA,EAAA,SAAA;EAAAA,KAAA,CAAA,iFAAA,GAAA,OAAA;EACPC,yBAAA,CAAA,mBAAA,CADOD,KACP,EAA8B,MAA9B,EAA8B,SAA9B,CADO;SAAAA,KAAA;C;AAAA,SAAAD,wFAAA,8F;AAAd,mB;AAAA,SAAA,yEAAA;EC5IuC,KAAAG,gBAAA,OD4IvC;EC5IsD,KAAAC,mBAAA,ID4ItD;EAAsC,KAAAC,iFAAA,IAAtC;C;AAAA,SAAA,yEAAA,+E;AAAA,yEAAA,CAAA,SAAA,OAAAH,yBAAA,CAAA,UAAA,E;AAAA,yEAAA,CAAA,SAAA,CAAA,WAAA,GAAA,yE;AAAA,mB;AAAA,SAAA,yEAAA;;C;AAAA,SAAA,yEAAA,+E;AAAA,yEAAA,CAAA,SAAA,GAAA,yEAAA,CAAA,S;AAAA,yEAAA,CAAA,SAAA,CAAAI,4BAAA;EErHiC,WAAAC,wCAAA,CAAA,oBAAA,MFqHjC;E;AAAA,yEAAA,CAAA,SAAA,CAOCC,+EAPD,aAOO,OAPP,EAO0C,GAP1C;EAOyE,WAPzE;E;AAAA,yEAAA,CAAA,SAAA,CAmBUC,WAnBV;;EAqBM,QAAA,EAAA;;MAAE,iCAAF;;;SACA,CADA;MACE,kCADF;;;SAEA,CAFA;MAEE,0BAFF;;;SAGA,CAHA;MAGE,2BAHF;;;;MAIW,MAAAC,2BAAA,CAAA,iCAAA,KAAAA,2BAAA,CAAA,2BAAA,IAA0B,aAA1B,CAJX;;GArBN;E;AAAA,IAAA,yEAAA,OAAAA,2BAAA,CAAA,SAAA,GAAA,SAAA;EAAA,sEAAA;;EAAA,sEAAA;EAAA,OAAA;EAAA,CAAA;EAAA,aAAA;EAAA,qBAAA;EAAA,gDAAA;EAAA,QAAA;EAAA,SAAA;EAAA,cAAA;E;AAAA,SAAA,yEAAA,+E;AAAA,yEAAA,CAAA,SAAA,CAAA,UAAA,GAAA,yE;",
+"sources": ["file:///home/runner/work/scala-java-time/scala-java-time/core/js/target/scala-3.1.0/src_managed/main/org/threeten/bp/format/internal/TTBPDateTimeFormatterBuilder.scala", "https://raw.githubusercontent.com/scala-js/scala-js/v1.8.0/javalanglib/src/main/scala/java/lang/Enum.scala", "https://raw.githubusercontent.com/scala/scala/v2.13.6/src/library/scala/Product.scala"],
+"names": ["<init>", "this", "java.lang.Enum", "_name", "_ordinal", "ordinal", "productIterator", "scala.Product$$anon$1", "print", "toString", "java.lang.Object"],
+"lineCount": 70
+}
